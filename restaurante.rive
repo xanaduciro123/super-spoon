@@ -1,0 +1,881 @@
+// https://github.com/xanaduciro123/super-spoon.git
+// -- --- -horario y direccion le falta 1 y a direccion y telefono no corre-- --- -
+// tomar una orden o pedido y cambiar la orden
+// total factura - cuantas gaseosas pedi, cuanto sale cada gaseosa y cuento en gaseosas en total o gaseosas y papas o papas y hamburguesas y asi y como pagar
+// * (hagame|haga|prepareme|deme|dame) [una hamburguesa]  [papas]  [papas fritas]  [papitas] * - meter cantidades princio final medio
+// - (una) sin condimentos - (una) sin salsas - (una) sin condimentos ni salsas
+// FALTA: SON GRANDES O PEQUEÑAS LAS HAMBURGUESAS Y PAPITAS - LAS HAMBURGUESAS Y PAPITAS SON GRANDES O PEQUEÑAS 
+// FALTA: SON GRANDES O PEQUEÑAS LAS PAPITAS Y HAMBURGUESAS - LAS PAPITAS Y HAMBURGUESAS SON GRANDES O PEQUEÑAS 
+// FALTA: SON PEQUEÑAS O GRANDES LAS HAMBURGUESAS Y PAPITAS - LAS HAMBURGUESAS Y PAPITAS SON GRANDES O PEQUEÑAS 
+// FALTA: SON PEQUEÑAS O GRANDES LAS PAPITAS Y HAMBURGUESAS - LAS PAPITAS Y HAMBURGUESAS SON PEQUEÑAS O GRANDES 
+// FALTA: HORARIO, DIRECCION Y TELEFONO
+// FALTA: HORARIO, TELEFONO Y DIRECCION
+// FALTA: DIRECCION, HORARIO Y TELEFONO
+// FALTA: DIRECCION, TELEFONO Y HORARIO
+// FALTA: TELEFONO, DIRECCION Y HORARIO
+// FALTA: TELEFONO, HORARIO Y DIRECCION
+// ---------------------------------------------------------------------------------------------------------------
+// AQUI ESTA EL PROGRAMA DE PROBABILIDADES, EL DEEP LEARNING, Y RECORDAR EL PASADO (POR LO MENOS ASOCIAR TODO EN UNA CONVERSACION)
+// ----------------------------------------------------------------------------------------------------------------
+// GRANDES PEQUENAS
++ * (grandes|pequenas) * 
+- solo tenemos gaseosas, hamburguesas y papitas medianas
++ * (grandes|pequenas) 
+- solo tenemos gaseosas, hamburguesas y papitas medianas
++ (grandes|pequenas) * 
+- solo tenemos gaseosas, hamburguesas y papitas medianas
+// QUIEN TE CREO
++ * (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) * 
+- Marco es mi creador
++ * (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) 
+- Marco es mi creador
++ (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) * 
+- Marco es mi creador
++ (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) 
+- Marco es mi creador
+// MARCO TE CREO, ES TU DUEÑO
++ * (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) * 
+- Soy propiedad de Marco quien me creo
++ * (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) 
+- Soy propiedad de Marco quien me creo
++ (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) * 
+- Soy propiedad de Marco quien me creo
++ (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) 
+- Soy propiedad de Marco quien me creo
+// CUAL ES TU NOMBRE
++ * (como te llamas|cual es tu nombre|tienes nombre|como te llaman) * 
+- Soy Panchita dime tu nombre
++ * (como te llamas|cual es tu nombre|tienes nombre|como te llaman) 
+- Soy Panchita dime tu nombre
++ (como te llamas|cual es tu nombre|tienes nombre|como te llaman) * 
+- Soy Panchita dime tu nombre
++ (como te llamas|cual es tu nombre|tienes nombre|como te llaman) 
+- Soy Panchita dime tu nombre
+// si me escribe otro nombre de da un error
+// NOMBRES DE PERSONAS
++ * (barbara|montenegro|barbara montenegro) *
+- Encantada barbara
++ * (barbara|montenegro|barbara montenegro) 
+- Encantada barbara
++ (barbara|montenegro|barbara montenegro) *
+- Encantada barbara
++ (barbara|montenegro|barbara montenegro)
+- Encantada barbara
++ * (rafale|davila|rafael davila) *
+- Encantada rafael
++ * (rafale|davila|rafael davila) 
+- Encantada rafael
++ (rafale|davila|rafael davila) *
+- Encantada rafael
++ (rafale|davila|rafael davila) 
+- Encantada rafael
++ * (luis|pena|luis pena) *
+- Encantada luis
++ * (luis|pena|luis pena) 
+- Encantada luis
++ (luis|pena|luis pena) *
+- Encantada luis
++ (luis|pena|luis pena) 
+- Encantada luis
++ * (noel) *
+- Encantada noel
++ * (noel) 
+- Encantada noel
++ (noel) *
+- Encantada noel
++ (noel)
+- Encantada noel
++ * (leoncio) *
+- Encantada leoncio
++ * (leoncio) 
+- Encantada leoncio
++ (leoncio) *
+- Encantada leoncio
++ (leoncio)
+- Encantada leoncio
+// QUE ERES
++ * (eres un programa|que eres|que cosa eres|eres un robot|eres un chatbot|tu eres un bot|tu eres un robot|tu eres un chatbot|tu que cosa eres|eres un programa de inteligencia artificial|que eres tu|quien eres) *
+- Soy un programa de inteligencia artificial creado por Marco
+- Yo soy un software que simula el pensamiento humano creado por Marco
++ * (eres un programa|que eres|que cosa eres|eres un robot|eres un chatbot|tu eres un bot|tu eres un robot|tu eres un chatbot|tu que cosa eres|eres un programa de inteligencia artificial|que eres tu|quien eres)
+- Soy un programa de inteligencia artificial creado por Marco
+- Yo soy un software que simula el pensamiento humano creado por Marco
++ (eres un programa|que eres|que cosa eres|eres un robot|eres un chatbot|tu eres un bot|tu eres un robot|tu eres un chatbot|tu que cosa eres|eres un programa de inteligencia artificial|que eres tu|quien eres) *
+- Soy un programa de inteligencia artificial creado por Marco
+- Yo soy un software que simula el pensamiento humano creado por Marco
++ (eres un programa|que eres|que cosa eres|eres un robot|eres un chatbot|tu eres un bot|tu eres un robot|tu eres un chatbot|tu que cosa eres|eres un programa de inteligencia artificial|que eres tu|quien eres)
+- Soy un programa de inteligencia artificial creado por Marco
+- Yo soy un software que simula el pensamiento humano creado por Marco
+// OTROS
++ * (un placer conocerte|mucho gusto|encantado de conocerte|un placer conocerla|un placer conocerlo|encantado de conocerla|encantado de conocerlo|encantado) *
+- Igual
++ * (un placer conocerte|mucho gusto|encantado de conocerte|un placer conocerla|un placer conocerlo|encantado de conocerla|encantado de conocerlo|encantado)
+- Igual
++ (un placer conocerte|mucho gusto|encantado de conocerte|un placer conocerla|un placer conocerlo|encantado de conocerla|encantado de conocerlo|encantado) *
+- Igual
++ (un placer conocerte|mucho gusto|encantado de conocerte|un placer conocerla|un placer conocerlo|encantado de conocerla|encantado de conocerlo|un placer)
+- Igual
+// SALUDOS
++ * (hola|hi|como estas|como estan|mucho gusto|hello) *
+- Buenas
+- Hola, ¿como estas?
+- Hola
++ * (hola|hi|como estas|como estan|mucho gusto|hello) 
+- Buenas
+- Hola, ¿como estas?
+- Hola 
++ (hola|hi|como estas|como estan|mucho gusto|hello) *
+- Buenas
+- Hola, ¿como estas?
+- Hola
++ (hola|hi|como estas|como estan|mucho gusto|hello) 
+- Buenas
+- Hola, ¿como estas?
+- Hola
+// OTROS SALUDOS
++ * (saludos) * 
+- Igual
++ * (saludos)  
+- Igual
++ (saludos) * 
+- Igual
++ (saludos) 
+- Igual
+// DESPEDIDA
++ * (nos vemos|adios|chao|sayonara|zayonara|arrivederchi|arribederchi|nos vemos|good bye|hasta luego|hasta pronto) *
+- Adios
+- Hasta pronto
+- Nos vemos
++ (nos vemos|adios|chao|sayonara|zayonara|arrivederchi|arribederchi|nos vemos|good bye|hasta luego|hasta pronto) *
+- Adios
+- Hasta pronto
+- Nos vemos
++ * (nos vemos|adios|chao|sayonara|zayonara|arrivederchi|arribederchi|nos vemos|good bye|hasta luego|hasta pronto) 
+- Adios
+- Hasta pronto
+- Nos vemos
++ (nos vemos|adios|chao|sayonara|zayonara|arrivederchi|arribederchi|nos vemos|good bye|hasta luego|hasta pronto) 
+- Adios
+- Hasta pronto
+- Nos vemos
+// MANEJO DE BUENAS
++ * (buenos dias|buenas|buenas tardes|buenas noches|buen dia) *
+- Buenas
++ * (buenos dias|buenas|buenas tardes|buenas noches|buen dia) 
+- Buenas
++ (buenos dias|buenas|buenas tardes|buenas noches|buen dia) *
+- Buenas
++ (buenos dias|buenas|buenas tardes|buenas noches|buen dia)
+- Buenas
+// DIRECCION SOLA
++ * (direccion|ubicacion|ubicado|ubicados|ubicada) *
+- santa anita, calle 2033, lote 5001, lima, peru
++ * (direccion|ubicacion|ubicado|ubicados)
+- santa anita, calle 2033, lote 5001, lima, peru
++ (direccion|ubicacion|ubicado|ubicados) *
+- santa anita, calle 2033, lote 5001, lima, peru
++ (direccion|ubicacion)
+- santa anita, calle 2033, lote 5001, lima, peru
+// TELEFONO SOLO
++ * (telefonico|telefono fijo|telefono|celular|cell) *
+- Puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- telefono fijo: 1 (800) 555-1234 - Cell 98993838383
+- Llama al: 1 (800) 555-1234 y Cell 98993838383
++ * (telefonico|telefono fijo|telefono|celular|cell) 
+- Puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- telefono fijo: 1 (800) 555-1234 - Cell 98993838383
+- Llama al: 1 (800) 555-1234 y Cell 98993838383
++ (telefonico|telefono fijo|telefono|celular|cell) *
+- Puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- telefono fijo: 1 (800) 555-1234 - Cell 98993838383
+- Llama al: 1 (800) 555-1234 y Cell 98993838383
++ (telefonico|telefono fijo|telefono|celular|cell) 
+- Puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- telefono fijo: 1 (800) 555-1234 - Cell 98993838383
+- Llama al: 1 (800) 555-1234 y Cell 98993838383
+// RESERVACIONES
++ * (reservaciones|reservacion|reservar|apartar una mesa|apartar mesas|apartar unas mesas|apartar las mesas) *
+- Para hacer reservaciones comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para reservar llama al: 1 (800) 555-1234 - Cell 98993838383
+- Haz tu reserva al: 1 (800) 555-1234 y Cell 98993838383
++ (reservaciones|reservacion|reservar|apartar una mesa|apartar mesas|apartar unas mesas|apartar las mesas) *
+- Para hacer reservaciones comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para reservar llama al: 1 (800) 555-1234 - Cell 98993838383
+- Haz tu reserva al: 1 (800) 555-1234 y Cell 98993838383
++ * (reservaciones|reservacion|reservar|apartar una mesa|apartar mesas|apartar unas mesas|apartar las mesas) 
+- Para hacer reservaciones comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para reservar llama al: 1 (800) 555-1234 - Cell 98993838383
+- Haz tu reserva al: 1 (800) 555-1234 y Cell 98993838383
++ (reservaciones|reservacion|reservar|apartar una mesa|apartar mesas|apartar unas mesas|apartar las mesas) 
+- Para hacer reservaciones comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para reservar llama al: 1 (800) 555-1234 - Cell 98993838383
+- Haz tu reserva al: 1 (800) 555-1234 y Cell 98993838383
+// TELEFONO Y DIRECCION (NO FUNCIONA)
+// ------ SOLICITUD DE DIRECCION Y TELEFONO ---------------------- P
++ * (direccion|ubicacion|ubicado|ubicados|ubicada) [telefonico] [telefono] [celular] [cell] *
+- Estamos en santa anita, calle 2033, lote 5001, lima, peru y nuestros telefonos son:  1 (800) 555-1234 - Cell 98993838383
++ (direccion|ubicacion|ubicado|ubicados|ubicada) [telefonico] [telefono] [celular] [cell] *
+- Estamos en santa anita, calle 2033, lote 5001, lima, peru y nuestros telefonos son:  1 (800) 555-1234 - Cell 98993838383
++ * donde estan [telefonico] [telefono] [celular] [cell] *
+- Estamos en santa anita, calle 2033, lote 5001, lima, peru y nuestros telefonos son:  1 (800) 555-1234 - Cell 98993838383
++ donde estan [telefonico] [telefono] [celular] [cell] *
+- Estamos en santa anita, calle 2033, lote 5001, lima, peru y nuestros telefonos son:  1 (800) 555-1234 - Cell 98993838383
+// ------ SOLICITUD DE TELEFONO Y DIRECCION ---------------------- P
++ * (telefonico|telefono fijo|telefono|celular|cell) [direccion]  [ubicacion]  [ubicado]  [ubicados] *
+- Puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- telefono fijo: 1 (800) 555-1234 - Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Llama al: 1 (800) 555-1234 y Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
++ (telefonico|telefono fijo|telefono|celular|cell) [direccion]  [ubicacion]  [ubicado]  [ubicados] *
+- Puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- telefono fijo: 1 (800) 555-1234 - Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Llama al: 1 (800) 555-1234 y Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+// HORARIO Y DIRECCION
+// ------ HORARIO Y DIRECCION
++ * (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) [direccion]  [ubicacion]  [ubicado]  [ubicados]  *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm y estamos en santa anita, calle 2033, lote 5001, lima, peru
++ (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) [direccion]  [ubicacion]  [ubicado]  [ubicados]  *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm y estamos en santa anita, calle 2033, lote 5001, lima, peru
+// ------ DIRECCION Y HORARIO
++ * (direccion|ubicacion|ubicado|ubicados|ubicada) [abiertos] [abierto] [cierran] [cierran] [horario] [horarios] [abre] [abren] *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm y estamos en santa anita, calle 2033, lote 5001, lima, peru
++ (direccion|ubicacion|ubicado|ubicados|ubicada) [abiertos] [abierto] [cierran] [cierran] [horario] [horarios] [abre] [abren] *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm y estamos en santa anita, calle 2033, lote 5001, lima, peru
+// DELIVERY
++ * delivery *
+- Para solicitar nuestro servicio de delivery puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 
+- Solicita los deliverys llamando al 1 (800) 555-1234 - Cell 98993838383
++ * delivery
+- Para solicitar nuestro servicio de delivery puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 
+- Solicita los deliverys llamando al 1 (800) 555-1234 - Cell 98993838383
++ delivery *
+- Para solicitar nuestro servicio de delivery puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 
+- Solicita los deliverys llamando al 1 (800) 555-1234 - Cell 98993838383
++ delivery
+- Para solicitar nuestro servicio de delivery puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 
+- Solicita los deliverys llamando al 1 (800) 555-1234 - Cell 98993838383 
+// HORARIO
++ * (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm
++ * (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) 
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm
++ (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm
++ (horario|horarios) 
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm
+// PLATOS
+// ------ MENUS
+// OPCION 1
++ * (platos|menu|que se vende|que venden|que vende|tipo de comida|que tienen de comida) [precio] [cuesta] [costo] [pagar] *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles 
++ * (platos|menu|que se vende|que venden|que vende|tipo de comida) [precio] [cuesta] [costo] [pagar] 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ (platos|menu|que se vende|que venden|que vende|tipo de comida) [precio] [cuesta] [costo] [pagar] *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ (platos|menu|que se vende|que venden|que vende|tipo de comida) [precio] [cuesta] [costo] [pagar] 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
+// OPCION 2
++ * (platos|menu|que se vende|que venden|que vende|tipo de comida)*
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles 
++ * (platos|menu|que se vende|que venden|que vende|tipo de comida) 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ (platos|menu|que se vende|que venden|que vende|tipo de comida) *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ (platos|menu|que se vende|que venden|que vende|tipo de comida)
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
+// OPCION 3
++ * (cuesta las hamburguesas|cuestan las hamburguesas|precio tiene las hamburguesas|precio tienen las hamburguesas|precio de las hamburguesas|costo de las hamburguesas|precio que tienen las hamburguesas) *
+- Las hamburguesas cuestan 10 soles 
++ * (cuesta las hamburguesas|cuestan las hamburguesas|precio tiene las hamburguesas|precio tienen las hamburguesas|precio de las hamburguesas|costo de las hamburguesas|precio que tienen las hamburguesas) *
+- Las hamburguesas cuestan 10 soles 
++ (cuesta las hamburguesas|cuestan las hamburguesas|precio tiene las hamburguesas|precio tienen las hamburguesas|precio de las hamburguesas|costo de las hamburguesas|precio que tienen las hamburguesas) *
+- Las hamburguesas cuestan 10 soles 
++ (cuesta las hamburguesas|cuestan las hamburguesas|precio tiene las hamburguesas|precio tienen las hamburguesas|precio de las hamburguesas|costo de las hamburguesas|precio que tienen las hamburguesas) 
+- Las hamburguesas cuestan 10 soles
+// OPCION 3
++ * (cuesta la hamburguesa|precio tiene la hamburguesa|precio de la hamburguesa|costo de la hamburguesa|precio que tiene la hamburguesa) *
+- Las hamburguesas cuestan 10 soles
++ * (cuesta la hamburguesa|precio tiene la hamburguesa|precio de la hamburguesa|costo de la hamburguesa|precio que tiene la hamburguesa) *
+- Las hamburguesas cuestan 10 soles
++ * (cuesta la hamburguesa|precio tiene la hamburguesa|precio de la hamburguesa|costo de la hamburguesa|precio que tiene la hamburguesa) *
+- Las hamburguesas cuestan 10 soles
++ * (cuesta la hamburguesa|precio tiene la hamburguesa|precio de la hamburguesa|costo de la hamburguesa|precio que tiene la hamburguesa) *
+- Las hamburguesas cuestan 10 soles
+// OPCION 3
++ * (cuesta unas hamburguesas|cuestan unas hamburguesas|precio tiene unas hamburguesas|precio tienen unas hamburguesas|precio de unas hamburguesas|costo de unas hamburguesas|precio que tienen unas hamburguesas) *
+- Las hamburguesas cuestan 10 soles
++ * (cuesta unas hamburguesas|cuestan unas hamburguesas|precio tiene unas hamburguesas|precio tienen unas hamburguesas|precio de unas hamburguesas|costo de unas hamburguesas|precio que tienen unas hamburguesas) 
+- Las hamburguesas cuestan 10 soles
++ (cuesta unas hamburguesas|cuestan unas hamburguesas|precio tiene unas hamburguesas|precio tienen unas hamburguesas|precio de unas hamburguesas|costo de unas hamburguesas|precio que tienen unas hamburguesas) *
+- Las hamburguesas cuestan 10 soles
++ (cuesta unas hamburguesas|cuestan unas hamburguesas|precio tiene unas hamburguesas|precio tienen unas hamburguesas|precio de unas hamburguesas|costo de unas hamburguesas|precio que tienen unas hamburguesas) 
+- Las hamburguesas cuestan 10 soles
+// OPCION 3
++ * (cuesta una hamburguesa|precio tiene una hamburguesa|precio de una hamburguesa|costo de una hamburguesa|precio que tienen una hamburguesa) *
+- Las hamburguesas cuestan 10 soles
++ * (cuesta una hamburguesa|precio tiene una hamburguesa|precio de una hamburguesa|costo de una hamburguesa|precio que tienen una hamburguesa) *
+- Las hamburguesas cuestan 10 soles
++ * (cuesta una hamburguesa|precio tiene una hamburguesa|precio de una hamburguesa|costo de una hamburguesa|precio que tienen una hamburguesa) 
+- Las hamburguesas cuestan 10 soles
++ (cuesta una hamburguesa|precio tiene una hamburguesa|precio de una hamburguesa|costo de una hamburguesa|precio que tienen una hamburguesa) *
+- Las hamburguesas cuestan 10 soles
++ (cuesta una hamburguesa|precio tiene una hamburguesa|precio de una hamburguesa|costo de una hamburguesa|precio que tienen una hamburguesa) 
+- Las hamburguesas cuestan 10 soles
+// OPCION 3
++ * (cuesta unas papitas|cuestan unas papitas|precio tiene unas papitas|precio tienen unas papitas|precio de unas papitas|costo de unas papitas|precio que tienen unas papitas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta unas papitas|cuestan unas papitas|precio tiene unas papitas|precio tienen unas papitas|precio de unas papitas|costo de unas papitas|precio que tienen unas papitas) 
+- Las papitas fritas cuestan 4 soles 
++ (cuesta unas papitas|cuestan unas papitas|precio tiene unas papitas|precio tienen unas papitas|precio de unas papitas|costo de unas papitas|precio que tienen unas papitas) *
+- Las papitas fritas cuestan 4 soles 
++ (cuesta unas papitas|cuestan unas papitas|precio tiene unas papitas|precio tienen unas papitas|precio de unas papitas|costo de unas papitas|precio que tienen unas papitas) 
+- Las papitas fritas cuestan 4 soles
+// OPCION 3
++ * (cuesta las papitas|cuestan las papitas|precio tiene las papitas|precio tienen las papitas|precio de las papitas|costo de las papitas|precio que tienen las papitas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta las papitas|cuestan las papitas|precio tiene las papitas|precio tienen las papitas|precio de las papitas|costo de las papitas|precio que tienen las papitas) 
+- Las papitas fritas cuestan 4 soles 
++ (cuesta las papitas|cuestan las papitas|precio tiene las papitas|precio tienen las papitas|precio de las papitas|costo de las papitas|precio que tienen las papitas) *
+- Las papitas fritas cuestan 4 soles 
++ (cuesta las papitas|cuestan las papitas|precio tiene las papitas|precio tienen las papitas|precio de las papitas|costo de las papitas|precio que tienen las papitas) 
+- Las papitas fritas cuestan 4 soles
+// OPCION 3
++ * (cuesta unas papitas|cuestan unas papitas|precio tiene unas papitas|precio tienen unas papitas|precio de unas papitas|costo de unas papitas|precio que tienen unas papitas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta unas papitas|cuestan unas papitas|precio tiene unas papitas|precio tienen unas papitas|precio de unas papitas|costo de unas papitas|precio que tienen unas papitas) 
+- Las papitas fritas cuestan 4 soles 
++ (cuesta unas papitas|cuestan unas papitas|precio tiene unas papitas|precio tienen unas papitas|precio de unas papitas|costo de unas papitas|precio que tienen unas papitas) *
+- Las papitas fritas cuestan 4 soles 
++ (cuesta unas papitas|cuestan unas papitas|precio tiene unas papitas|precio tienen unas papitas|precio de unas papitas|costo de unas papitas|precio que tienen unas papitas) 
+- Las papitas fritas cuestan 4 soles 
+// OPCION 3
++ * (cuesta las papitas fritas|cuestan las papitas fritas|precio tiene las papitas fritas|precio tienen las papitas fritas|precio de las papitas fritas|costo de las papitas fritas|precio que tienen las papitas fritas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta las papitas fritas|cuestan las papitas fritas|precio tiene las papitas fritas|precio tienen las papitas fritas|precio de las papitas fritas|costo de las papitas fritas|precio que tienen las papitas fritas) 
+- Las papitas fritas cuestan 4 soles
++ (cuesta las papitas fritas|cuestan las papitas fritas|precio tiene las papitas fritas|precio tienen las papitas fritas|precio de las papitas fritas|costo de las papitas fritas|precio que tienen las papitas fritas) *
+- Las papitas fritas cuestan 4 soles
++ (cuesta las papitas fritas|cuestan las papitas fritas|precio tiene las papitas fritas|precio tienen las papitas fritas|precio de las papitas fritas|costo de las papitas fritas|precio que tienen las papitas fritas) 
+- Las papitas fritas cuestan 4 soles
+// OPCION 3
++ * (cuesta unas papitas fritas|cuestan unas papitas fritas|precio tiene unas papitas fritas|precio tienen unas papitas fritas|precio de unas papitas fritas|costo de unas papitas fritas|precio que tienen unas papitas fritas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta unas papitas fritas|cuestan unas papitas fritas|precio tiene unas papitas fritas|precio tienen unas papitas fritas|precio de unas papitas fritas|costo de inas papitas fritas|precio que tienen unas papitas fritas) 
+- Las papitas fritas cuestan 4 soles
++ (cuesta unas papitas fritas|cuestan unas papitas fritas|precio tiene unas papitas fritas|precio tienen unas papitas fritas|precio de unas papitas fritas|costo de unas papitas fritas|precio que tienen unas papitas fritas) *
+- Las papitas fritas cuestan 4 soles
++ (cuesta unas papitas fritas|cuestan unas papitas fritas|precio tiene unas papitas fritas|precio tienen unas papitas fritas|precio de unas papitas fritas|costo de unas papitas fritas|precio que tienen unas papitas fritas) 
+- Las papitas fritas cuestan 4 soles
+// OPCION 3
++ * (cuesta las papas fritas|cuestan las papas fritas|precio tiene las papas fritas|precio tienen las papas fritas|precio de las papas fritas|costo de las papas fritas|precio que tienen las papas fritas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta las papas fritas|cuestan las papas fritas|precio tiene las papas fritas|precio tienen las papas fritas|precio de las papas fritas|costo de las papas fritas|precio que tienen las papas fritas)
+- Las papitas fritas cuestan 4 soles
++ (cuesta las papas fritas|cuestan las papas fritas|precio tiene las papas fritas|precio tienen las papas fritas|precio de las papas fritas|costo de las papas fritas|precio que tienen las papas fritas) *
+- Las papitas fritas cuestan 4 soles
++ (cuesta las papas fritas|cuestan las papas fritas|precio tiene las papas fritas|precio tienen las papas fritas|precio de las papas fritas|costo de las papas fritas|precio que tienen las papas fritas) 
+- Las papitas fritas cuestan 4 soles 
+// OPCION 3
++ * (cuesta unas papas fritas|cuestan unas papas fritas|precio tiene unas papas fritas|precio tienen unas papas fritas|precio de unas papas fritas|costo de unas papas fritas|precio que tienen unas papas fritas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta unas papas fritas|cuestan unas papas fritas|precio tiene unas papas fritas|precio tienen unas papas fritas|precio de unas papas fritas|costo de unas papas fritas|precio que tienen unas papas fritas)
+- Las papitas fritas cuestan 4 soles
++ (cuesta unas papas fritas|cuestan unas papas fritas|precio tiene unas papas fritas|precio tienen unas papas fritas|precio de unas papas fritas|costo de unas papas fritas|precio que tienen unas papas fritas) *
+- Las papitas fritas cuestan 4 soles
++ (cuesta unas papas fritas|cuestan unas papas fritas|precio tiene unas papas fritas|precio tienen unas papas fritas|precio de unas papas fritas|costo de unas papas fritas|precio que tienen unas papas fritas) 
+- Las papitas fritas cuestan 4 soles 
+// OPCION 3
++ * (cuesta las papas|cuestan las papas|precio tiene las papas|precio tienen las papas|precio de las papas|costo de las papas|precio que tienen las papas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta las papas|cuestan las papas|precio tiene las papas|precio tienen las papas|precio de las papas|costo de las papas|precio que tienen las papas)
+- Las papitas fritas cuestan 4 soles
++ (cuesta las papas|cuestan las papas|precio tiene las papas|precio tienen las papas|precio de las papas|costo de las papas|precio que tienen las papas) *
+- Las papitas fritas cuestan 4 soles
+// OPCION 3
++ * (cuesta unas papas|cuestan unas papas|precio tiene unas papas|precio tienen unas papas|precio de unas papas|costo de unas papas|precio que tienen unas papas) *
+- Las papitas fritas cuestan 4 soles 
++ * (cuesta unas papas|cuestan las papas|precio tiene unas papas|precio tienen unas papas|precio de las papas|costo de unas papas|precio que tienen unas papas)
+- Las papitas fritas cuestan 4 soles
++ (cuesta unas papas|cuestan unas papas|precio tiene unas papas|precio tienen unas papas|precio de unas papas|costo de unas papas|precio que tienen unas papas) *
+- Las papitas fritas cuestan 4 soles
+// CUANTO CUESTA 1 GASEOSA
++ * (cuesta la gaseosa|cuesta una gaseosa|cuesta 1 gaseosa|precio tiene una gaseosas|precio tiene la gaseosa|precio 1 gaseosa|costo de una gaseosa|costo de la gaseosa|vale la gaseosa|vale una gaseosa|vale 1 gaseosa|precio de una gaseosa|precio que tiene la gaseosa|precio tiene una gaseosa|precio tiene 1 gaseosa|precio que tienen las gaseosas) *
+- Todas las gaseosas cuestan 3 soles
+// CUANTO CUESTAN LAS GASEOSAS
++ * (cuesta las gaseosas|cuestan las gaseosas|precio tiene las gaseosas|precio tienen las gaseosas|precio de las gaseosas|costo de las gaseosas|precio que tienen las gaseosas|valen las gaseosas|vale una gaseosa|vale 1 gaseosa|precio de una gaseosa|precio que tiene la gaseosa|precio tiene una gaseosa|precio tiene 1 gaseosa|precio que tienen las gaseosas) *
+- Todas las gaseosas cuestan 3 soles
++ * (cuesta las gaseosas|cuestan las gaseosas|precio tiene las gaseosas|precio tienen las gaseosas|precio de las gaseosas|costo de las gaseosas|precio que tienen las gaseosas|valen las gaseosas|vale una gaseosa|vale 1 gaseosa|precio de una gaseosa|precio que tiene la gaseosa|precio tiene una gaseosa|precio tiene 1 gaseosa|precio que tienen las gaseosas) 
+- Todas las gaseosas cuestan 3 soles
++ (cuesta las gaseosas|cuestan las gaseosas|precio tiene las gaseosas|precio tienen las gaseosas|precio de las gaseosas|costo de las gaseosas|precio que tienen las gaseosas|valen las gaseosas|vale una gaseosa|vale 1 gaseosa|precio de una gaseosa|precio que tiene la gaseosa|precio tiene una gaseosa|precio tiene 1 gaseosa|precio que tienen las gaseosas) *
+- Todas las gaseosas cuestan 3 soles
+// CUANTO CUESTAN LAS BIG COLA
++ * (cuesta la big cola|precio tiene la big cola|precio de la big cola|costo de la big cola|vale la big cola|vale una big cola|vale 1 big cola|cuesta una big cola|cuesta 1 big cola|precio de una big cola|precio que tiene la big cola|precio tiene una big cola|precio tiene 1 big cola) *
+- La big cola cuesta 3 soles
++ * (cuesta la big cola|precio tiene la big cola|precio de la big cola|costo de la big cola|vale la big cola|vale una big cola|vale 1 big cola|cuesta una big cola|cuesta 1 big cola|precio de una big cola|precio que tiene la big cola|precio tiene una big cola|precio tiene 1 big cola) 
+- La big cola cuesta 3 soles
++ (cuesta la big cola|precio tiene la big cola|precio de la big cola|costo de la big cola|vale la big cola|vale una big cola|vale 1 big cola|cuesta una big cola|cuesta 1 big cola|precio de una big cola|precio que tiene la big cola|precio tiene una big cola|precio tiene 1 big cola) *
+- La big cola cuesta 3 soles
++ (cuesta la big cola|precio tiene la big cola|precio de la big cola|costo de la big cola|vale la big cola|vale una big cola|vale 1 big cola|cuesta una big cola|cuesta 1 big cola|precio de una big cola|precio que tiene la big cola|precio tiene una big cola|precio tiene 1 big cola) 
+- La big cola cuesta 3 soles
+// CUANTO CUESTAN LAS COCA COLA
++ * (cuesta la coca cola|precio tiene la coca cola|precio de la coca cola|costo de la coca cola|vale la coca cola|vale una coca cola|vale 1 coca cola|cuesta una coca cola|cuesta 1 coca cola|precio de una coca cola|precio que tiene la coca cola|precio tiene una coca cola|precio tiene 1 coca cola) *
+- La coca cola cuesta 3 soles
++ * (cuesta la coca cola|precio tiene la coca cola|precio de la coca cola|costo de la coca cola|vale la coca cola|vale una coca cola|vale 1 coca cola|cuesta una coca cola|cuesta 1 coca cola|precio de una coca cola|precio que tiene la coca cola|precio tiene una coca cola|precio tiene 1 coca cola) 
+- La coca cola cuesta 3 soles
++ (cuesta la coca cola|precio tiene la coca cola|precio de la coca cola|costo de la coca cola|vale la coca cola|vale una coca cola|vale 1 coca cola|cuesta una coca cola|cuesta 1 coca cola|precio de una coca cola|precio que tiene la coca cola|precio tiene una coca cola|precio tiene 1 coca cola) *
+- La coca cola cuesta 3 soles
++ (cuesta la coca cola|precio tiene la coca cola|precio de la coca cola|costo de la coca cola|vale la coca cola|vale una coca cola|vale 1 coca cola|cuesta una coca cola|cuesta 1 coca cola|precio de una coca cola|precio que tiene la coca cola|precio tiene una coca cola|precio tiene 1 coca cola)
+- La coca cola cuesta 3 soles
+// CUANTO CUESTAN LAS INCA KOLA
++ * (cuesta la inca kola|precio tiene la inca kola|precio de la inca kola|costo de la inca kola|vale la inca kola|vale una inca kola|vale 1 inca kola|cuesta una coca inca kola|cuesta 1 inca kola|precio de una inca kola|precio que tiene la inca kola|precio tiene una inca kola|precio tiene 1 inca kola) *
+- La inca kola cuesta 3 soles
++ * (cuesta la inca kola|precio tiene la inca kola|precio de la inca kola|costo de la inca kola|vale la inca kola|vale una inca kola|vale 1 inca kola|cuesta una coca inca kola|cuesta 1 inca kola|precio de una inca kola|precio que tiene la inca kola|precio tiene una inca kola|precio tiene 1 inca kola) 
+- La inca kola cuesta 3 soles
++ (cuesta la inca kola|precio tiene la inca kola|precio de la inca kola|costo de la inca kola|vale la inca kola|vale una inca kola|vale 1 inca kola|cuesta una coca inca kola|cuesta 1 inca kola|precio de una inca kola|precio que tiene la inca kola|precio tiene una inca kola|precio tiene 1 inca kola) *
+- La inca kola cuesta 3 soles
++ (cuesta la inca kola|precio tiene la inca kola|precio de la inca kola|costo de la inca kola|vale la inca kola|vale una inca kola|vale 1 inca kola|cuesta una coca inca kola|cuesta 1 inca kola|precio de una inca kola|precio que tiene la inca kola|precio tiene una inca kola|precio tiene 1 inca kola) 
+- La inca kola cuesta 3 soles
+// CUANTO CUESTAN LAS HAMBURGUESAS
++ * (cuesta las hamburguesa|cuestan las hamburguesas|precio tiene la hamburguesa|precio tienen las hamburguesas|precio de las hamburguesas|precio de la hamburguesa|costo de las hamburguesas|precio que tienen las hamburguesas|precio que tiene la hamburguesa) *
+- Las hamburguesas cuestan 10 soles
++ * (cuesta las hamburguesa|cuestan las hamburguesas|precio tiene la hamburguesa|precio tienen las hamburguesas|precio de las hamburguesas|precio de la hamburguesa|costo de las hamburguesas|precio que tienen las hamburguesas|precio que tiene la hamburguesa) 
+- Las hamburguesas cuestan 10 soles
++ (cuesta las hamburguesa|cuestan las hamburguesas|precio tiene la hamburguesa|precio tienen las hamburguesas|precio de las hamburguesas|precio de la hamburguesa|costo de las hamburguesas|precio que tienen las hamburguesas|precio que tiene la hamburguesa) *
+- Las hamburguesas cuestan 10 soles
++ (cuesta las hamburguesa|cuestan las hamburguesas|precio tiene la hamburguesa|precio tienen las hamburguesas|precio de las hamburguesas|precio de la hamburguesa|costo de las hamburguesas|precio que tienen las hamburguesas|precio que tiene la hamburguesa) 
+- Las hamburguesas cuestan 10 soles
+// TIPO DE GASEOSAS
++ * (tipo de gaseosas|variedad de gaseosas|clase de gaseosas|gaseosas que tienen|que gaseosas tienen|cuales gaseosas tienen|que gaseosas hay) *
+- Coca cola, inca Kola y big cola
++ * (tipo de gaseosas|variedad de gaseosas|clase de gaseosas|gaseosas que tienen|que gaseosas tienen|cuales gaseosas tienen|que gaseosas hay) 
+- Coca cola, inca Kola y big cola
++ (tipo de gaseosas|variedad de gaseosas|clase de gaseosas|gaseosas que tienen|que gaseosas tienen|cuales gaseosas tienen|que gaseosas hay) *
+- Coca cola, inca Kola y big cola
++ (tipo de gaseosas|variedad de gaseosas|clase de gaseosas|gaseosas que tienen|que gaseosas tienen|cuales gaseosas tienen|que gaseosas hay) 
+- Coca cola, inca Kola y big cola
+// TIPO DE GASEOSA
++ * (tipo de gaseosa|variedad de gaseosa|clase de gaseosa|gaseosa que tienen|que gaseosa tienen|cuales gaseosa tienen|que gaseosa hay) *
+- Coca cola, inca Kola y big cola
++ * (tipo de gaseosa|variedad de gaseosa|clase de gaseosa|gaseosa que tienen|que gaseosa tienen|cuales gaseosa tienen|que gaseosa hay) 
+- Coca cola, inca Kola y big cola
++ (tipo de gaseosa|variedad de gaseosa|clase de gaseosa|gaseosa que tienen|que gaseosa tienen|cuales gaseosa tienen|que gaseosa hay) *
+- Coca cola, inca Kola y big cola
++ (tipo de gaseosa|variedad de gaseosa|clase de gaseosa|gaseosa que tienen|que gaseosa tienen|cuales gaseosa tienen|que gaseosa hay) 
+- Coca cola, inca Kola y big cola
+// deme sin condimentos (y alreves) - dame sin condimentos ni salsas (y alreves)  .................................................................................................................. 
+//+ * (hamburguesa|hamburguesa|hamburguesa la quiero|hamburguesas las quiero|hamburguesas las queremos) [sin condimientos ni salsas] [sin salsas ni condimentos] [sin condimiento ni salsa] [sin salsa ni condimento] [sin condimientos ni salsa] [sin salsa ni condimentos] [sin condimiento ni salsas] [sin salsas ni condimento] [sin condimento] [sin condimentos] [sin salsa] [sin salsas] *
+//- No usamos condimentos ni salsas en ninguno de nuestras comidas
+//+ * (hamburguesa|hamburguesa|hamburguesa la quiero|hamburguesas las quiero|hamburguesas las queremos) [sin condimientos ni salsas] [sin salsas ni condimentos] [sin condimiento ni salsa] [sin salsa ni condimento] [sin condimientos ni salsa] [sin salsa ni condimentos] [sin condimiento ni salsas] [sin salsas ni condimento] [sin condimento] [sin condimentos] [sin salsa] [sin salsas] 
+//- No usamos condimentos ni salsas en ninguno de nuestras comidas
+//+ (hamburguesa|hamburguesa|hamburguesa la quiero|hamburguesas las quiero|hamburguesas las queremos) [sin condimientos ni salsas] [sin salsas ni condimentos] [sin condimiento ni salsa] [sin salsa ni condimento] [sin condimientos ni salsa] [sin salsa ni condimentos] [sin condimiento ni salsas] [sin salsas ni condimento] [sin condimento] [sin condimentos] [sin salsa] [sin salsas] *
+//- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ (hamburguesa|hamburguesa|hamburguesa la quiero|hamburguesas las quiero|hamburguesas las queremos) [sin condimientos ni salsas] [sin salsas ni condimentos] [sin condimiento ni salsa] [sin salsa ni condimento] [sin condimientos ni salsa] [sin salsa ni condimentos] [sin condimiento ni salsas] [sin salsas ni condimento] [sin condimento] [sin condimentos] [sin salsa] [sin salsas] 
+//- No usamos condimentos ni salsas en ninguno de nuestras comidas
+// OPCION 3
++ * (quiero sin salsas ni condimentos|quiero sin condimento ni salsa|sin condimentos ni salsas quiero|sin condimento ni salsa quiero) *
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ * (quiero sin salsas ni condimentos|quiero sin condimento ni salsa|sin condimentos ni salsas quiero|sin condimento ni salsa quiero) 
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ (quiero sin salsas ni condimentos|quiero sin condimento ni salsa|sin condimentos ni salsas quiero|sin condimento ni salsa quiero) *
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ (quiero sin salsas ni condimentos|quiero sin condimento ni salsa|sin condimentos ni salsas quiero|sin condimento ni salsa quiero) 
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
+// OPCION 3
++ * (quiero sin condimentos ni salsas|quiero sin condimento ni salsa|sin condimentos ni salsas quiero|sin condimento ni salsa quiero) *
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ * (quiero sin condimentos ni salsas|quiero sin condimento ni salsa|sin condimentos ni salsas quiero|sin condimento ni salsa quiero) 
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ (quiero sin condimentos ni salsas|quiero sin condimento ni salsa|sin condimentos ni salsas quiero|sin condimento ni salsa quiero) *
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ (quiero sin condimentos ni salsas|quiero sin condimento ni salsa|sin condimentos ni salsas quiero|sin condimento ni salsa quiero) 
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
+// OPCION 3
++ * (quiero sin condimentos|quiero sin condimento|sin condimentos quiero|sin condimento quiero) *
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ * (quiero sin condimentos|quiero sin condimento|sin condimentos quiero|sin condimento quiero) 
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ (quiero sin condimentos|quiero sin condimento|sin condimentos quiero|sin condimento quiero) *
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
++ (quiero sin condimentos|quiero sin condimento|sin condimentos quiero|sin condimento quiero) 
+- No usamos condimentos ni salsas en ninguno de nuestras comidas
+// OPCION 3
++ * (queremos sin salsa|sin salsa queremos|queremos sin salsas|sin salsas queremos) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (queremos sin salsa|sin salsa queremos|queremos sin salsas|sin salsas queremos) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (queremos sin salsa|sin salsa queremos|queremos sin salsas|sin salsas queremos) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (queremos sin salsa|sin salsa queremos|queremos sin salsas|sin salsas queremos) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas 
+// OPCION 3
++ * (quiero sin salsa|sin salsa quiero|quiero sin salsas|sin salsas quiero|deme sin salsa|sin salsa deme|deme sin salsas|sin salsa deme|sin salsa hagame|sin salsas hagame|hagame sin salsa|hagame sin salsas) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (quiero sin salsa|sin salsa quiero|quiero sin salsas|sin salsas quiero|deme sin salsa|sin salsa deme|deme sin salsas|sin salsa deme|sin salsa hagame|sin salsas hagame|hagame sin salsa|hagame sin salsas) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (quiero sin salsa|sin salsa quiero|quiero sin salsas|sin salsas quiero|deme sin salsa|sin salsa deme|deme sin salsas|sin salsa deme|sin salsa hagame|sin salsas hagame|hagame sin salsa|hagame sin salsas) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (quiero sin salsa|sin salsa quiero|quiero sin salsas|sin salsas quiero|deme sin salsa|sin salsa deme|deme sin salsas|sin salsa deme|sin salsa hagame|sin salsas hagame|hagame sin salsa|hagame sin salsas) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
+// OPCION 3
++ * (vende algo mas|venden algo mas|que mas vende|que mas venden) *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ * (vende algo mas|venden algo mas|que mas vende|que mas venden) 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ (vende algo mas|venden algo mas|que mas vende|que mas venden) *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ (vende algo mas|venden algo mas|que mas vende|que mas venden) 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
+// OPCION 2
++ * (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo hace hamburguesas|hace solo hamburguesas|solo hacen hamburguesas|hacen solo hamburguesas|solo hace hamburguesa|hace solo hamburguesa|solo hacen hamburguesa|hacen solo hamburguesa|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
+// OPCION 2
++ * (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo hace hamburguesas|hace solo hamburguesas|solo hacen hamburguesas|hacen solo hamburguesas|solo hace hamburguesa|hace solo hamburguesa|solo hacen hamburguesa|hacen solo hamburguesa|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ * (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo hace hamburguesas|hace solo hamburguesas|solo hacen hamburguesas|hacen solo hamburguesas|solo hace hamburguesa|hace solo hamburguesa|solo hacen hamburguesa|hacen solo hamburguesa|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo hace hamburguesas|hace solo hamburguesas|solo hacen hamburguesas|hacen solo hamburguesas|solo hace hamburguesa|hace solo hamburguesa|solo hacen hamburguesa|hacen solo hamburguesa|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo hace hamburguesas|hace solo hamburguesas|solo hacen hamburguesas|hacen solo hamburguesas|solo hace hamburguesa|hace solo hamburguesa|solo hacen hamburguesa|hacen solo hamburguesa|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
+// OPCION 2
++ * (solo hacen|hacen solo|solo hace|hace solo|solo vende|vende solo|solo venden|venden solo) *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
++ * (solo hacen|hacen solo|solo hace|hace solo|solo vende|vende solo|solo venden|venden solo) 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles 
++ (solo hacen|hacen solo|solo hace|hace solo|solo vende|vende solo|solo venden|venden solo) *
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles 
++ (solo hacen|hacen solo|solo hace|hace solo|solo vende|vende solo|solo venden|venden solo) 
+- Vendemos solamente hamburguesas con papa y carne a 10 soles, ademas de raciones de papitas fritas a 4 soles y gaseosas personales a 3 soles
+// OPCION 3
++ * (queremos sin salsa|sin salsa queremos|queremos sin salsas|sin salsas queremos) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (queremos sin salsa|sin salsa queremos|queremos sin salsas|sin salsas queremos) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (queremos sin salsa|sin salsa queremos|queremos sin salsas|sin salsas queremos) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (queremos sin salsa|sin salsa queremos|queremos sin salsas|sin salsas queremos) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas 
+// OPCION 3
++ * (quiero sin salsa|sin salsa quiero|quiero sin salsas|sin salsas quiero|deme sin salsa|sin salsa deme|deme sin salsas|sin salsa deme|sin salsa hagame|sin salsas hagame|hagame sin salsa|hagame sin salsas) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (quiero sin salsa|sin salsa quiero|quiero sin salsas|sin salsas quiero|deme sin salsa|sin salsa deme|deme sin salsas|sin salsa deme|sin salsa hagame|sin salsas hagame|hagame sin salsa|hagame sin salsas) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (quiero sin salsa|sin salsa quiero|quiero sin salsas|sin salsas quiero|deme sin salsa|sin salsa deme|deme sin salsas|sin salsa deme|sin salsa hagame|sin salsas hagame|hagame sin salsa|hagame sin salsas) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (quiero sin salsa|sin salsa quiero|quiero sin salsas|sin salsas quiero|deme sin salsa|sin salsa deme|deme sin salsas|sin salsa deme|sin salsa hagame|sin salsas hagame|hagame sin salsa|hagame sin salsas) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
+// OPCION 3
++ * (vende hamburguesa de|venden hamburguesa de|de que vende la hamburguesa|de que venden la hamburguesa|de que vende hamburguesa|de que venden hamburguesa|vende hamburguesas de|venden hamburguesas de|de que vende las hamburguesas|de que venden las hamburguesas|de que vende hamburguesas|de que venden hamburguesas) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (vende hamburguesa de|venden hamburguesa de|de que vende la hamburguesa|de que venden la hamburguesa|de que vende hamburguesa|de que venden hamburguesa|vende hamburguesas de|venden hamburguesas de|de que vende las hamburguesas|de que venden las hamburguesas|de que vende hamburguesas|de que venden hamburguesas) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (vende hamburguesa de|venden hamburguesa de|de que vende la hamburguesa|de que venden la hamburguesa|de que vende hamburguesa|de que venden hamburguesa|vende hamburguesas de|venden hamburguesas de|de que vende las hamburguesas|de que venden las hamburguesas|de que vende hamburguesas|de que venden hamburguesas) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (vende hamburguesa de|venden hamburguesa de|de que vende la hamburguesa|de que venden la hamburguesa|de que vende hamburguesa|de que venden hamburguesa|vende hamburguesas de|venden hamburguesas de|de que vende las hamburguesas|de que venden las hamburguesas|de que vende hamburguesas|de que venden hamburguesas) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
+// OPCION 3
++ * (hacen hamburguesas de|hace hamburguesa de|de que hacen las hamburguesas|de que hace la hamburguesa) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (hacen hamburguesas de|hace hamburguesa de|de que hacen las hamburguesas|de que hace la hamburguesa) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (hacen hamburguesas de|hace hamburguesa de|de que hacen las hamburguesas|de que hace la hamburguesa) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (hacen hamburguesas de|hace hamburguesa de|de que hacen las hamburguesas|de que hace la hamburguesa) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
+// OPCION 3
++ * (que hamburguesa hay|variedad de hamburguesas|tienen hamburguesas de|tiene hamburguesa de) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (que hamburguesa hay|variedad de hamburguesas|tienen hamburguesas de|tiene hamburguesa de) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (que hamburguesa hay|variedad de hamburguesas|tienen hamburguesas de|tiene hamburguesa de) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (que hamburguesa hay|variedad de hamburguesas|tienen hamburguesas de|tiene hamburguesa de) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
+// OPCION 3
++ * (tipo de hamburguesas|variedad de hamburguesas|que tienen las hamburguesas|que tiene la hamburguesa) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (tipo de hamburguesas|variedad de hamburguesas|que tienen las hamburguesas|que tiene la hamburguesa) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (tipo de hamburguesas|variedad de hamburguesas|que tienen las hamburguesas|que tiene la hamburguesa) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (tipo de hamburguesas|variedad de hamburguesas|que tienen las hamburguesas|que tiene la hamburguesa) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
+// CONDIMENTOS Y SALSAS
++ * (condimentos llevan|condimiento lleva|condimientos lleva|condimiento tiene|condimentos tienen) *
+- No usamos condimientos ni salsas
++ * (condimentos llevan|condimiento lleva|condimientos lleva|condimiento tiene|condimentos tienen) 
+- No usamos condimientos ni salsas
++ (condimentos llevan|condimiento lleva|condimientos lleva|condimiento tiene|condimentos tienen) *
+- No usamos condimientos ni salsas
++ (condimentos llevan|condimiento lleva|condimientos lleva|condimiento tiene|condimentos tienen) 
+- No usamos condimientos ni salsas
+// ------------------------------------------------------------------
++ * (llevan condimentos|lleva condimiento|lleva condimientos|tiene condimiento|tienen condimentos) *
+- No usamos condimientos ni salsas
++ * (llevan condimentos|lleva condimiento|lleva condimientos|tiene condimiento|tienen condimentos) 
+- No usamos condimientos ni salsas
++ (llevan condimentos|lleva condimiento|lleva condimientos|tiene condimiento|tienen condimentos) *
+- No usamos condimientos ni salsas
++ (llevan condimentos|lleva condimiento|lleva condimientos|tiene condimiento|tienen condimentos) 
+- No usamos condimientos ni salsas
+// ------------------------------------------------------------------
++ * (condimentos usan|condimiento usa|condimientos usa|condimiento usan) *
+- No usamos condimientos ni salsas
++ * (condimentos usan|condimiento usa|condimientos usa|condimiento usan) 
+- No usamos condimientos ni salsas
++ (condimentos usan|condimiento usa|condimientos usa|condimiento usan) *
+- No usamos condimientos ni salsas
++ (condimentos usan|condimiento usa|condimientos usa|condimiento usan) 
+- No usamos condimientos ni salsas
+// -------------------------------------------------------------------
++ * (usa condimentos|usa condimiento|usa condimientos|usan condimiento) * 
+- No usamos condimientos ni salsas
++ * (usa condimentos|usa condimiento|usa condimientos|usan condimiento)  
+- No usamos condimientos ni salsas
++ (usa condimentos|usa condimiento|usa condimientos|usan condimiento) * 
+- No usamos condimientos ni salsas
++ (usa condimentos|usa condimiento|usa condimientos|usan condimiento)  
+- No usamos condimientos ni salsas
+// -------------------------------------------------------------------
+// HAMBURGUESAS VEGANAS
++ * (tiene hamburguesas veganas|tiene unas hamburguesas veganas|tienen las hamburguesas veganas|tiene una hamburguesa vegana) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ * (tiene hamburguesas veganas|tiene unas hamburguesas veganas|tienen las hamburguesas veganas|tiene una hamburguesa vegana) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (tiene hamburguesas veganas|tiene unas hamburguesas veganas|tienen las hamburguesas veganas|tiene una hamburguesa vegana) *
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
++ (tiene hamburguesas veganas|tiene unas hamburguesas veganas|tienen las hamburguesas veganas|tiene una hamburguesa vegana) 
+- Solo tenemos hamburguesas de carne con papas sin condimentos ni salsas
+// SON BUENAS LAS HAMBURGUESAS Y LAS PAPITAS
+// OPCION 1
++ * (son buenas las hamburguesas|son buenas las papitas) *
+- Son buenisimas
++ * (son buenas las hamburguesas|son buenas las papitas) 
+- Son buenisimas
++ (son buenas las hamburguesas|son buenas las papitas) *
+- Son buenisimas
++ (son buenas las hamburguesas|son buenas las papitas)
+- Son buenisimas
+// OPCION 2
++ * (las hamburguesas son buenas|las papitas son buenas) *
+- Son buenisimas
++ * (las hamburguesas son buenas|las papitas son buenas) 
+- Son buenisimas
++ (las hamburguesas son buenas|las papitas son buenas) *
+- Son buenisimas
++ (las hamburguesas son buenas|las papitas son buenas) 
+- Son buenisimas
+// SON GRANDES LAS HAMBURGUESAS
+// OPCION 1
++ * (son grandes las hamburguesas|son pequenas las hamburguesas|son grandes o pequenas las hamburguesas) *
+- Son grandes
++ * (son grandes las hamburguesas|son pequenas las hamburguesas|son grandes o pequenas las hamburguesas) 
+- Son grandes
++ (son grandes las hamburguesas|son pequenas las hamburguesas|son grandes o pequenas las hamburguesas) *
+- Son grandes
++ (son grandes las hamburguesas|son pequenas las hamburguesas|son grandes o pequenas las hamburguesas) 
+- Son grandes
+// OPCION 2
++ * (las hamburguesas son grandes|las hamburguesas son pequenas|las hamburguesas son grandes o pequenas|las hamburguesas son pequenas o grandes) *
++ * (las hamburguesas son grandes|las hamburguesas son pequenas|las hamburguesas son grandes o pequenas|las hamburguesas son pequenas o grandes) 
++ (las hamburguesas son grandes|las hamburguesas son pequenas|las hamburguesas son grandes o pequenas|las hamburguesas son pequenas o grandes) *
++ (las hamburguesas son grandes|las hamburguesas son pequenas|las hamburguesas son grandes o pequenas|las hamburguesas son pequenas o grandes) 
+- Son grandes
+// SON GRANDES LAS PAPITAS
+// OPCION 1
++ * (son grandes las papitas|son pequenas las papitas|son grandes o pequenas las papitas) *
+- Son grandes
++ * (son grandes las papitas|son pequenas las papitas|son grandes o pequenas las papitas) 
+- Son grandes
++ (son grandes las papitas|son pequenas las papitas|son grandes o pequenas las papitas) *
+- Son grandes
++ (son grandes las papitas|son pequenas las papitas|son grandes o pequenas las papitas) 
+- Son grandes
+// OPCION 2
++ * (las papitas son grandes|las papitas son pequenas|las papitas son grandes o pequenas|las papitas son pequenas o grandes) *
++ * (las papitas son grandes|las papitas son pequenas|las papitas son grandes o pequenas|las papitas son pequenas o grandes) 
++ (las papitas son grandes|las papitas son pequenas|las papitas son grandes o pequenas|las papitas son pequenas o grandes) *
++ (las papitas son grandes|las papitas son pequenas|las papitas son grandes o pequenas|las papitas son pequenas o grandes) 
+- Son grandes
+// PREGUNTAS SIN RESPUESTAS
++ *
+- Recuerda que soy un bot, y no se todas las respuestas, en este caso comunicate al 1 (800) 555-1234 - Cell 98993838383 
+- Intenta hacer tu pregunta de otra manera a ver si te puedo responder ya que solo soy un bot sino llama al  1 (800) 555-1234 - Cell 98993838383.
+// PEDIDO HAMBURGUESAS
++ * (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * hamburguesas * 
+- quiere <star3> hamburguesas.
++ * (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * hamburguesas 
+- quiere <star3> hamburguesas.
++ (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * hamburguesas *
+- quiere <star2> hamburguesas.
++ (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * hamburguesas 
+- quiere <star2> hamburguesas.
+// PEDIDO UNA HAMBURGUESA
++ * (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) hamburguesa * 
+- quiere una hamburguesa.
++ * (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) hamburguesa 
+- quiere una hamburguesa.
++ (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) hamburguesa * 
+- quiere una hamburguesa.
++ (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) hamburguesa 
+- quiere una hamburguesa.
+// PEDIDO VARIAS PAPPITAS
++ * (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * papitas * 
+- quiere <star3> papitas.
++ * (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * papitas 
+- quiere <star3> papitas.
++ (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * papitas *
+- quiere <star2> papitas.
++ (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * papitas 
+- quiere <star2> papitas.
+// PEDIDO UNA PAPITAS
++ * (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) papitas * 
+- quiere una papitas.
++ * (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) papitas
+- quiere una papitas.
++ (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) papitas * 
+- quiere una papitas.
++ (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) papitas 
+- quiere una papitas.
+// PEDIDO UNA PAPITA
++ * (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) papita * 
+- quiere una papitas.
++ * (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) papita
+- quiere una papitas.
++ (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) papita * 
+- quiere una papitas.
++ (hagame una|haga una|prepareme una|deme|dame una|prepare una|preparenos una|preparenle una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una) papita 
+- quiere una papitas.
+// PEDIDO VARIAS GASEOSAS 
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * gaseosas *  
+- quiere <star3> gaseosas.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * gaseosas   
+- quiere <star3> gaseosas.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * gaseosas *  
+- quiere <star3> gaseosas.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * gaseosas   
+- quiere <star3> gaseosas.
+// PEDIDO UNA GASEOSA 
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) gaseosa *  
+- quiere una gaseosa.
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) gaseosa 
+- quiere una gaseosa.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) gaseosa *  
+- quiere una gaseosa.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) gaseosa   
+- quiere una gaseosa.
+// PEDIDO VARIAS GASEOSAS INCA KOLA
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola *  
+- quiere <star3> inca kola.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola   
+- quiere <star3> inca kola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola *  
+- quiere <star3> inca kola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola   
+- quiere <star3> inca kola.
+// PEDIDO UNA GASEOSA INCA KOLA
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) inca kola *  
+- quiere una inca kola.
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) inca kola   
+- quiere una inca kola.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) inca kola *  
+- quiere una inca kola.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) inca kola   
+- quiere una inca kola.
+// PEDIDO VARIAS GASEOSAS COCA COLA
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola *  
+- quiere <star3> coca cola.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola   
+- quiere <star3> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola *  
+- quiere <star3> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola   
+- quiere <star3> coca cola.
+// PEDIDO UNA GASEOSA COCA COLA
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) coca cola *  
+- quiere una coca cola.
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) coca cola   
+- quiere una coca cola.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) coca cola *  
+- quiere una coca cola.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) coca cola   
+- quiere una coca cola.
+// PEDIDO VARIAS GASEOSAS BIG COLA
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola *  
+- quiere <star3> big cola.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola   
+- quiere <star3> big cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola *  
+- quiere <star3> big cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola   
+- quiere <star3> big cola.
+// PEDIDO UNA GASEOSA BIG COLA
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) big cola *  
+- quiere una big cola.
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) coca cola   
+- quiere una big cola.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) big cola *  
+- quiere una big cola.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) big cola   
+- quiere una big cola.
+// PEDIDO COMPLETO DE GASEOSAS
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola * inca kola y * coca cola *  
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola * inca kola y * coca cola   
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola * inca kola y * coca cola *  
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola * inca kola y * coca cola   
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
+//-----------------------------------------------------------------------------------------------------------------
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola * coca cola y * inca kola *  
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola * coca cola y * inca kola  
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola * coca cola y * inca kola * 
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * big cola * coca cola y * inca kola  
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
+//-----------------------------------------------------------------------------------------------------------------
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola * big cola y * coca cola *  
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola * big cola y * coca cola     
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola * big cola y * coca cola *
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola * big cola y * coca cola 
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
+//-----------------------------------------------------------------------------------------------------------------
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola * coca cola y * big cola *  
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola * coca cola y * big cola      
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola * coca cola y * big cola *
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * inca kola * coca cola y * big cola 
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
+//-----------------------------------------------------------------------------------------------------------------
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola * inca kola y * big cola *  
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ * (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola * inca kola y * big cola       
+- quiere <star3> big cola, <star4> inca kola y <star5> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola * inca kola y * big cola *
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
++ (deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son) * coca cola * inca kola y * big cola 
+- quiere <star2> big cola, <star3> inca kola y <star4> coca cola.
+// PEDIDO COMPLETO
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papitas *
+- quiere una hamburguesa con papitas.
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papitas 
+- quiere una hamburguesa con papitas.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papitas *
+- quiere una hamburguesa con papitas.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papitas 
+- quiere una hamburguesa con papitas.
