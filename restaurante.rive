@@ -132,6 +132,10 @@
 - Buenas
 - Hola, ¿como estas?
 - Hola
++ bien
+- ok
++ bien gracias
+- me alegro
 // OTROS SALUDOS
 + * (saludos) * 
 - Igual
@@ -879,3 +883,140 @@
 - quiere una hamburguesa con papitas.
 + (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papitas 
 - quiere una hamburguesa con papitas.
+//--------------------------------------------------------------------------------------------------------------------
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papas *
+- quiere una hamburguesa con papitas.
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papas 
+- quiere una hamburguesa con papitas.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papas *
+- quiere una hamburguesa con papitas.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papas 
+- quiere una hamburguesa con papitas.
+//---------------------------------------------------------------------------------------------------------------------
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papa *
+- quiere una hamburguesa con papitas.
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papa 
+- quiere una hamburguesa con papitas.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papa *
+- quiere una hamburguesa con papitas.
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) hamburguesa con papa 
+- quiere una hamburguesa con papitas.
+//--------------------------------------------------------------------------------------------------------------------
++ * (deme unas|vendame unas|vendanos unas|vendanle unas|envieme unas|envienle unas|envienos unas|quiero unas|queremos unas|mi pedido es unas|el pedido es unas|nuestro pedido es unas|pedimos unas|pido unas|pide unas) papitas con hamburguesa *
+- quiere una hamburguesa con papitas.
++ * (deme unas|vendame unas|vendanos unas|vendanle unas|envieme unas|envienle unas|envienos unas|quiero unas|queremos unas|mi pedido es unas|el pedido es unas|nuestro pedido es unas|pedimos unas|pido unas|pide unas) papitas con hamburguesa 
+- quiere una hamburguesa con papitas.
++ (deme unas|vendame unas|vendanos unas|vendanle unas|envieme unas|envienle unas|envienos unas|quiero unas|queremos unas|mi pedido es unas|el pedido es unas|nuestro pedido es unas|pedimos unas|pido unas|pide unas) papitas con hamburguesa *
+- quiere una hamburguesa con papitas.
++ (deme unas|vendame unas|vendanos unas|vendanle unas|envieme unas|envienle unas|envienos unas|quiero unas|queremos unas|mi pedido es unas|el pedido es unas|nuestro pedido es unas|pedimos unas|pido unas|pide unas) papitas con hamburguesa 
+- quiere una hamburguesa con papitas.
+//---------------------------------------------------------------------------------------------------------------------
++ * (deme unas|vendame unas|vendanos unas|vendanle unas|envieme unas|envienle unas|envienos unas|quiero unas|queremos unas|mi pedido es unas|el pedido es unas|nuestro pedido es unas|pedimos unas|pido unas|pide unas) papas con hamburguesa *
+- quiere una hamburguesa con papitas.
++ * (deme unas|vendame unas|vendanos unas|vendanle unas|envieme unas|envienle unas|envienos unas|quiero unas|queremos unas|mi pedido es unas|el pedido es unas|nuestro pedido es unas|pedimos unas|pido unas|pide unas) papas con hamburguesa 
+- quiere una hamburguesa con papitas.
++ (deme unas|vendame unas|vendanos unas|vendanle unas|envieme unas|envienle unas|envienos unas|quiero unas|queremos unas|mi pedido es unas|el pedido es unas|nuestro pedido es unas|pedimos unas|pido unas|pide unas) papas con hamburguesa *
+- quiere una hamburguesa con papitas.
++ (deme unas|vendame unas|vendanos unas|vendanle unas|envieme unas|envienle unas|envienos unas|quiero unas|queremos unas|mi pedido es unas|el pedido es unas|nuestro pedido es unas|pedimos unas|pido unas|pide unas) papas con hamburguesa 
+- quiere una hamburguesa con papitas.
+//----------------------------------------------------------------------------------------------------------------------
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es una|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) papa con hamburguesa *
++ * (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es una|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) papa con hamburguesa 
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es una|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) papa con hamburguesa *
++ (deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es una|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) papa con hamburguesa 
+- quiere una hamburguesa con papitas.
+// QUE VENDES
++ * (vende hamburguesas|vendes hamburguesas|vende hamburguesa|vende hamburguesas|tiene hamburguesa|tiene hamburguesas|tienen hamburguesa|tienen hamburguesas) *
+- Si vendemos hamburguesas.
++ * (vende hamburguesas|vendes hamburguesas|vende hamburguesa|vende hamburguesas|tiene hamburguesa|tiene hamburguesas|tienen hamburguesa|tienen hamburguesas) 
+- Si vendemos hamburguesas.
++ (vende hamburguesas|vendes hamburguesas|vende hamburguesa|vende hamburguesas|tiene hamburguesa|tiene hamburguesas|tienen hamburguesa|tienen hamburguesas) *
+- Si vendemos hamburguesas.
++ (vende hamburguesas|vendes hamburguesas|vende hamburguesa|vende hamburguesas|tiene hamburguesa|tiene hamburguesas|tienen hamburguesa|tienen hamburguesas) 
+- Si vendemos hamburguesas.
+//----------------------------------------------------------------------------------------------------------------------------
++ * (vende gaseosas|vendes gaseosas|vende gaseosa|vende gaseosas|tiene gaseosa|tiene gaseosas|tienen gaseosa|tienen gaseosas) *
+- Si vendemos gaseosas.
++ * (vende gaseosas|vendes gaseosas|vende gaseosa|vende gaseosas|tiene gaseosa|tiene gaseosas|tienen gaseosa|tienen gaseosas) 
+- Si vendemos gaseosas.
++ (vende gaseosas|vendes gaseosas|vende gaseosa|vende gaseosas|tiene gaseosa|tiene gaseosas|tienen gaseosa|tienen gaseosas) *
+- Si vendemos gaseosas.
++ (vende gaseosas|vendes gaseosas|vende gaseosa|vende gaseosas|tiene gaseosa|tiene gaseosas|tienen gaseosa|tienen gaseosas) 
+- Si vendemos gaseosas.
+//----------------------------------------------------------------------------------------------------------------------------
++ * (vende papitas|vendes papitas|vende papita|vende papitas|tiene papita|tiene papitas|tienen papita|tienen papitas) *
+- Si vendemos papitas.
++ * (vende papitas|vendes papitas|vende papita|vende papitas|tiene papita|tiene papitas|tienen papita|tienen papitas) 
+- Si vendemos papitas.
++ (vende papitas|vendes papitas|vende papita|vende papitas|tiene papita|tiene papitas|tienen papita|tienen papitas) *
+- Si vendemos papitas.
++ (vende papitas|vendes papitas|vende papita|vende papitas|tiene papita|tiene papitas|tienen papita|tienen papitas) 
+- Si vendemos papitas.
+//----------------------------------------------------------------------------------------------------------------------------
++ * (vende papitas|vendes papitas|vende papita|vende papitas|tiene papita|tiene papitas|tienen papita|tienen papitas) *
+- Si vendemos papitas.
++ * (vende papitas|vendes papitas|vende papita|vende papitas|tiene papita|tiene papitas|tienen papita|tienen papitas) 
+- Si vendemos papitas.
++ (vende papitas|vendes papitas|vende papita|vende papitas|tiene papita|tiene papitas|tienen papita|tienen papitas) *
+- Si vendemos papitas.
++ (vende papitas|vendes papitas|vende papita|vende papitas|tiene papita|tiene papitas|tienen papita|tienen papitas) 
+- Si vendemos papitas.
+//----------------------------------------------------------------------------------------------------------------------------
++ * (vende hamburguesas y papitas|vendes hamburguesas y papitas|vende hamburguesa y papitas|vende hamburguesas y papitas|tiene hamburguesa y papitas|tiene hamburguesas y papitas|tienen hamburguesa y papitas|tienen hamburguesas y papitas) *
+- Si vendemos hamburguesas y papitas.
++ * (vende hamburguesas y papitas|vendes hamburguesas y papitas|vende hamburguesa y papitas|vende hamburguesas y papitas|tiene hamburguesa y papitas|tiene hamburguesas y papitas|tienen hamburguesa y papitas|tienen hamburguesas y papitas) 
+- Si vendemos hamburguesas y papitas.
++ (vende hamburguesas y papitas|vendes hamburguesas y papitas|vende hamburguesa y papitas|vende hamburguesas y papitas|tiene hamburguesa y papitas|tiene hamburguesas y papitas|tienen hamburguesa y papitas|tienen hamburguesas y papitas) *
+- Si vendemos hamburguesas y papitas.
++ (vende hamburguesas y papitas|vendes hamburguesas y papitas|vende hamburguesa y papitas|vende hamburguesas y papitas|tiene hamburguesa y papitas|tiene hamburguesas y papitas|tienen hamburguesa y papitas|tienen hamburguesas y papitas) 
+- Si vendemos hamburguesas y papitas.
+//-----------------------------------------------------------------------------------------------------------------------------
++ * (vende hamburguesas y papas|vendes hamburguesas y papas|vende hamburguesa y papas|vende hamburguesas y papas|tiene hamburguesa y papas|tiene hamburguesas y papas|tienen hamburguesa y papas|tienen hamburguesas y papas) *
+- Si vendemos hamburguesas y papitas.
++ * (vende hamburguesas y papas|vendes hamburguesas y papas|vende hamburguesa y papas|vende hamburguesas y papas|tiene hamburguesa y papas|tiene hamburguesas y papas|tienen hamburguesa y papas|tienen hamburguesas y papas) 
+- Si vendemos hamburguesas y papitas.
++ (vende hamburguesas y papas|vendes hamburguesas y papas|vende hamburguesa y papas|vende hamburguesas y papas|tiene hamburguesa y papas|tiene hamburguesas y papas|tienen hamburguesa y papas|tienen hamburguesas y papas) *
+- Si vendemos hamburguesas y papitas.
++ (vende hamburguesas y papas|vendes hamburguesas y papas|vende hamburguesa y papas|vende hamburguesas y papas|tiene hamburguesa y papas|tiene hamburguesas y papas|tienen hamburguesa y papas|tienen hamburguesas y papas) 
+- Si vendemos hamburguesas y papitas.
+//------------------------------------------------------------------------------------------------------------------------------
++ * (vende hamburguesas y papa|vendes hamburguesas y papa|vende hamburguesa y papa|vende hamburguesas y papa|tiene hamburguesa y papa|tiene hamburguesas y papa|tienen hamburguesa y papa|tienen hamburguesas y papa) *
+- Si vendemos hamburguesas y papitas.
++ * (vende hamburguesas y papa|vendes hamburguesas y papa|vende hamburguesa y papa|vende hamburguesas y papa|tiene hamburguesa y papa|tiene hamburguesas y papa|tienen hamburguesa y papa|tienen hamburguesas y papa) 
+- Si vendemos hamburguesas y papitas.
++ (vende hamburguesas y papa|vendes hamburguesas y papa|vende hamburguesa y papa|vende hamburguesas y papa|tiene hamburguesa y papa|tiene hamburguesas y papa|tienen hamburguesa y papa|tienen hamburguesas y papa) *
+- Si vendemos hamburguesas y papitas.
++ (vende hamburguesas y papa|vendes hamburguesas y papa|vende hamburguesa y papa|vende hamburguesas y papa|tiene hamburguesa y papa|tiene hamburguesas y papa|tienen hamburguesa y papa|tienen hamburguesas y papa) 
+- Si vendemos hamburguesas y papitas.
+//-------------------------------------------------------------------------------------------------------------------------------
++ * (vende papitas y hamburguesas|vendes papitas y hamburguesas|vende papitas y hamburguesa|vende papitas y hamburguesas|tiene papitas y hamburguesa|tiene papitas y hamburguesas|tienen papitas y hamburguesa|tienen papitas y hamburguesas) *
+- Si vendemos hamburguesas y papitas.
++ * (vende papitas y hamburguesas|vendes papitas y hamburguesas|vende papitas y hamburguesa|vende papitas y hamburguesas|tiene papitas y hamburguesa|tiene papitas y hamburguesas|tienen papitas y hamburguesa|tienen papitas y hamburguesas) 
+- Si vendemos hamburguesas y papitas.
++ (vende papitas y hamburguesas|vendes papitas y hamburguesas|vende papitas y hamburguesa|vende papitas y hamburguesas|tiene papitas y hamburguesa|tiene papitas y hamburguesas|tienen papitas y hamburguesa|tienen papitas y hamburguesas) *
+- Si vendemos hamburguesas y papitas.
++ (vende papitas y hamburguesas|vendes papitas y hamburguesas|vende papitas y hamburguesa|vende papitas y hamburguesas|tiene papitas y hamburguesa|tiene papitas y hamburguesas|tienen papitas y hamburguesa|tienen papitas y hamburguesas) 
+- Si vendemos hamburguesas y papitas.
+//---------------------------------------------------------------------------------------------------------------------------------
++ * (vende papas y hamburguesas|vendes papas y hamburguesas|vende papas y hamburguesa|vende papas y hamburguesas|tiene papas y hamburguesa|tiene papas y hamburguesas|tienen papas y hamburguesa|tienen papas y hamburguesas) *
+- Si vendemos hamburguesas y papitas.
++ * (vende papas y hamburguesas|vendes papas y hamburguesas|vende papas y hamburguesa|vende papas y hamburguesas|tiene papas y hamburguesa|tiene papas y hamburguesas|tienen papas y hamburguesa|tienen papas y hamburguesas) 
+- Si vendemos hamburguesas y papitas.
++ (vende papas y hamburguesas|vendes papas y hamburguesas|vende papas y hamburguesa|vende papas y hamburguesas|tiene papas y hamburguesa|tiene papas y hamburguesas|tienen papas y hamburguesa|tienen papas y hamburguesas) *
+- Si vendemos hamburguesas y papitas.
++ (vende papas y hamburguesas|vendes papas y hamburguesas|vende papas y hamburguesa|vende papas y hamburguesas|tiene papas y hamburguesa|tiene papas y hamburguesas|tienen papas y hamburguesa|tienen papas y hamburguesas) 
+- Si vendemos hamburguesas y papitas.
+//----------------------------------------------------------------------------------------------------------------------------------
++ * (vende papa y hamburguesas|vendes papa y hamburguesas|vende papa y hamburguesa|vende papa y hamburguesas|tiene papa y hamburguesa|tiene papa y hamburguesas|tienen papa y hamburguesa|tienen papa y hamburguesas) *
+- Si vendemos hamburguesas y papitas.
++ * (vende papa y hamburguesas|vendes papa y hamburguesas|vende papa y hamburguesa|vende papa y hamburguesas|tiene papa y hamburguesa|tiene papa y hamburguesas|tienen papa y hamburguesa|tienen papa y hamburguesas) 
+- Si vendemos hamburguesas y papitas.
++ (vende papa y hamburguesas|vendes papa y hamburguesas|vende papa y hamburguesa|vende papa y hamburguesas|tiene papa y hamburguesa|tiene papa y hamburguesas|tienen papa y hamburguesa|tienen papa y hamburguesas) *
+- Si vendemos hamburguesas y papitas.
++ (vende papa y hamburguesas|vendes papa y hamburguesas|vende papa y hamburguesa|vende papa y hamburguesas|tiene papa y hamburguesa|tiene papa y hamburguesas|tienen papa y hamburguesa|tienen papa y hamburguesas) 
+- Si vendemos hamburguesas y papitas.
+//----------------------------------------------------------------------------------------------------------------------------
++ * (vende papas fritas|vendes papas fritas|tiene papas fritas|tienen papas fritas) *
+- Si vendemos papitas.
++ * (vende papas|vendes papas|tiene papas|tienen papas) *
+- Si vendemos papitas.
