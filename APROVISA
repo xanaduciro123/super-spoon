@@ -1,22 +1,7 @@
-// https://github.com/xanaduciro123/super-spoon.git
-// -- --- -horario y direccion le falta 1 y a direccion y telefono no corre-- --- -
-// tomar una orden o pedido y cambiar la orden
-// total factura - cuantas gaseosas pedi, cuanto sale cada gaseosa y cuento en gaseosas en total o gaseosas y papas o papas y hamburguesas y asi y como pagar
-// * (hagame|haga|prepareme|deme|dame) [una hamburguesa]  [papas]  [papas fritas]  [papitas] * - meter cantidades princio final medio
-// - (una) sin condimentos - (una) sin salsas - (una) sin condimentos ni salsas
-// FALTA: SON GRANDES O PEQUEÑAS LAS HAMBURGUESAS Y PAPITAS - LAS HAMBURGUESAS Y PAPITAS SON GRANDES O PEQUEÑAS 
-// FALTA: SON GRANDES O PEQUEÑAS LAS PAPITAS Y HAMBURGUESAS - LAS PAPITAS Y HAMBURGUESAS SON GRANDES O PEQUEÑAS 
-// FALTA: SON PEQUEÑAS O GRANDES LAS HAMBURGUESAS Y PAPITAS - LAS HAMBURGUESAS Y PAPITAS SON GRANDES O PEQUEÑAS 
-// FALTA: SON PEQUEÑAS O GRANDES LAS PAPITAS Y HAMBURGUESAS - LAS PAPITAS Y HAMBURGUESAS SON PEQUEÑAS O GRANDES 
-// FALTA: HORARIO, DIRECCION Y TELEFONO
-// FALTA: HORARIO, TELEFONO Y DIRECCION
-// FALTA: DIRECCION, HORARIO Y TELEFONO
-// FALTA: DIRECCION, TELEFONO Y HORARIO
-// FALTA: TELEFONO, DIRECCION Y HORARIO
-// FALTA: TELEFONO, HORARIO Y DIRECCION
-// ---------------------------------------------------------------------------------------------------------------
-// AQUI ESTA EL PROGRAMA DE PROBABILIDADES, EL DEEP LEARNING, Y RECORDAR EL PASADO (POR LO MENOS ASOCIAR TODO EN UNA CONVERSACION)
-// ----------------------------------------------------------------------------------------------------------------
+// https://github.com/xanaduciro123/super-spoon.gitas 
++ * (hagame|haga|prepareme|deme|dame|paseme) [deuda]  [debo]  [debe]  [papitas] * 
+- le enviare por email su estado de cuenta
+- le llegara a su correo su estado de cuenta
 // GRANDES PEQUENAS
 + * (grandes|pequenas) * 
 - solo tenemos gaseosas, hamburguesas y papitas medianas
