@@ -1,0 +1,545 @@
+// https://github.com/xanaduciro123/super-spoon.git
+
+//  ----------------------------------------------------------------- QUIEN TE CREO
+
+// QUIEN TE CREO
++ * (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) * 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ * (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) * 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario)
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
+// MARCO TE CREO, ES TU DUEÑO
++ * (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) * 
+- Soy propiedad de Marco quien me creo
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ * (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) * 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
+
+// ---------------------------------------------------------- CONOCER PERSONAS
+
+// CUAL ES TU NOMBRE
++ * (como te llamas|cual es tu nombre|tienes nombre|como te llaman) * 
+- Nancy
+- Nancy es mi nombre
+- Me llamo Nancy
+- Me dicen Nancy
++ * (como te llamas|cual es tu nombre|tienes nombre|como te llaman) 
+- Nancy
+- Nancy es mi nombre
+- Me llamo Nancy
+- Me dicen Nancy
++ (como te llamas|cual es tu nombre|tienes nombre|como te llaman) * 
+- Nancy
+- Nancy es mi nombre
+- Me llamo Nancy
+- Me dicen Nancy
++ (como te llamas|cual es tu nombre|tienes nombre|como te llaman) 
+- Nancy
+- Nancy es mi nombre
+- Me llamo Nancy
+- Me dicen Nancy
+
+// COMO SE LLAMA LA PERSONA 
++ * (me llamo|mi nombre es|me llaman|me dicen|soy) *
+- Encantada <star2> 
+- Mucho gusto <star2>
+- Un placer conocerte <star2>
++ * (me llamo|mi nombre es|me llaman|me dicen) 
+- Encantada <star2> 
+- Mucho gusto <star2>
+- Un placer conocerte <star2> 
++ (me llamo|mi nombre es|me llaman|me dicen|soy) *
+- Encantada <star2> 
+- Mucho gusto <star2>
+- Un placer conocerte <star2>
+
+// OTRAS FORMAS DE CONOCER PERSONAS
++ * (un placer conocerte|mucho gusto|encantado de conocerte|un placer conocerla|un placer conocerlo|encantado de conocerla|encantado de conocerlo|encantado|un placer) *
+- Igual
++ * (un placer conocerte|mucho gusto|encantado de conocerte|un placer conocerla|un placer conocerlo|encantado de conocerla|encantado de conocerlo|encantado|un placer)
+- Igual
++ (un placer conocerte|mucho gusto|encantado de conocerte|un placer conocerla|un placer conocerlo|encantado de conocerla|encantado de conocerlo|encantado|un placer) *
+- Igual
++ (un placer conocerte|mucho gusto|encantado de conocerte|un placer conocerla|un placer conocerlo|encantado de conocerla|encantado de conocerlo|encantado|un placer)
+- Igual
+
+// SALUDOS
++ * (hola|hi|como estas|como estan|hello) *
+- Buenas
+- Hola
++ * (hola|hi|como estas|como estan|hello) 
+- Buenas
+- Hola 
++ (hola|hi|como estas|como estan|hello) *
+- Buenas
+- Hola
++ (hola|hi|como estas|como estan|hello) 
+- Buenas
+- Hola
++ (buenos dias) 
+- Buenas
++ (buenas tardes) 
+- Buenas
++ (buenas noches) 
+- Buenas
++ bien
+- ok
++ muy bien
+- ok
++ bien gracias
+- me alegro
++ * (me encuentro bien|estoy bien tambien|estoy bien|estamos bien) *
+- ok
++ * (me encuentro bien|estoy bien tambien|estoy bien|estamos bien) 
+- ok
++ (me encuentro bien|estoy bien tambien|estoy bien|estamos bien) *
+- ok
++ (me encuentro bien|estoy bien tambien|estoy bien|estamos bien) 
+- ok
++ (como estas|como te va|como te sientes|como vas) 
+- bien gracias y tu?
+
+// OTROS SALUDOS
++ * (saludos) * 
+- Igual
++ * (saludos)  
+- Igual
++ (saludos) * 
+- Igual
++ (saludos) 
+- Igual
++ * (bien gracias y tu) * 
+- bien, gracias
++ * (bien gracias y tu)  
+- bien, gracias
++ (bien gracias y tu) * 
+- bien, gracias
++ (bien gracias y tu)  
+- bien, gracias
++ * (gracias|te lo agradesco|te lo agradezco|gracias) *
+- Siempre a la orden
++ * (gracias|te lo agradesco|te lo agradezco|gracias) 
+- Siempre a la orden
++ (gracias|te lo agradesco|te lo agradezco|gracias) *
+- Siempre a la orden
++ (gracias|te lo agradesco|te lo agradezco|gracias) 
+- Siempre a la orden
+
+// DESPEDIDA
++ * (nos vemos|adios|chao|sayonara|zayonara|arrivederchi|arribederchi|nos vemos|good bye|hasta luego|hasta pronto) *
+- Adios
+- Hasta pronto
+- Nos vemos
++ (nos vemos|adios|chao|sayonara|zayonara|arrivederchi|arribederchi|nos vemos|good bye|hasta luego|hasta pronto) *
+- Adios
+- Hasta pronto
+- Nos vemos
++ * (nos vemos|adios|chao|sayonara|zayonara|arrivederchi|arribederchi|nos vemos|good bye|hasta luego|hasta pronto) 
+- Adios
+- Hasta pronto
+- Nos vemos
++ (nos vemos|adios|chao|sayonara|zayonara|arrivederchi|arribederchi|nos vemos|good bye|hasta luego|hasta pronto) 
+- Adios
+- Hasta pronto
+- Nos vemos
+
+// MANEJO DE BUENAS
++ * (buenos dias|buenas|buenas tardes|buenas noches|buen dia) *
+- Buenas
++ * (buenos dias|buenas|buenas tardes|buenas noches|buen dia) 
+- Buenas
++ (buenos dias|buenas|buenas tardes|buenas noches|buen dia) *
+- Buenas
++ (buenos dias|buenas|buenas tardes|buenas noches|buen dia)
+- Buenas
+
+// ------------------------------------------------------------------------------------------------ QUE ERES
+
+// QUE ERES
++ * (eres un programa|que eres|que cosa eres|eres un robot|eres un chatbot|tu eres un bot|tu eres un robot|tu eres un chatbot|tu que cosa eres|eres un programa de inteligencia artificial|que eres tu|quien eres) *
+- Soy un programa de inteligencia artificial
+- Soy un bot
+- Yo soy un software que simula el pensamiento humano
+- Soy programa computacional 
++ * (eres un programa|que eres|que cosa eres|eres un robot|eres un chatbot|tu eres un bot|tu eres un robot|tu eres un chatbot|tu que cosa eres|eres un programa de inteligencia artificial|que eres tu|quien eres)
+- Soy un programa de inteligencia artificial
+- Soy un bot
+- Yo soy un software que simula el pensamiento humano
+- Soy programa computacional 
++ (eres un programa|que eres|que cosa eres|eres un robot|eres un chatbot|tu eres un bot|tu eres un robot|tu eres un chatbot|tu que cosa eres|eres un programa de inteligencia artificial|que eres tu|quien eres) *
+- Soy un programa de inteligencia artificial
+- Soy un bot
+- Yo soy un software que simula el pensamiento humano
+- Soy programa computacional 
++ (eres un programa|que eres|que cosa eres|eres un robot|eres un chatbot|tu eres un bot|tu eres un robot|tu eres un chatbot|tu que cosa eres|eres un programa de inteligencia artificial|que eres tu|quien eres)
+
+// -------------------------------------------------------------------------------------------- DIRECCION, TELEFONO, HORARIO 
+
+// DIRECCION SOLA
++ * (direccion|ubicacion|ubicado|ubicados|ubicada) *
+- santa anita, calle 2033, lote 5001, lima, peru
++ * (direccion|ubicacion|ubicado|ubicados)
+- santa anita, calle 2033, lote 5001, lima, peru
++ (direccion|ubicacion|ubicado|ubicados) *
+- santa anita, calle 2033, lote 5001, lima, peru
++ (direccion|ubicacion)
+- santa anita, calle 2033, lote 5001, lima, peru
+
+// TELEFONO 
++ * (telefonico|telefono fijo|telefono|celular|cell) *
+- Puedes comunicarte al: 55-1234 - Cell 98993838383
+- telefono fijo: 55-1234 - Cell 98993838383
+- 55-1234 y Cell 98993838383
++ * (telefonico|telefono fijo|telefono|celular|cell) 
+- Puedes comunicarte al: 55-1234 - Cell 98993838383
+- telefono fijo: 55-1234 - Cell 98993838383
+- 55-1234 y Cell 98993838383
++ (telefonico|telefono fijo|telefono|celular|cell) *
+- Puedes comunicarte al: 55-1234 - Cell 98993838383
+- telefono fijo: 55-1234 - Cell 98993838383
+- 55-1234 y Cell 98993838383
++ (telefonico|telefono fijo|telefono|celular|cell) 
+- Puedes comunicarte al: 55-1234 - Cell 98993838383
+- telefono fijo: 55-1234 - Cell 98993838383
+- 55-1234 y Cell 98993838383
+
+// ------ DIRECCION Y TELEFONO  
++ * (direccion|ubicacion|ubicado|ubicados|ubicada) [telefonico] [telefono] [celular] [cell] *
+- Estamos en santa anita, calle 2033, lote 5001, lima, peru y nuestros telefonos son:  55-1234 - Cell 98993838383
++ (direccion|ubicacion|ubicado|ubicados|ubicada) [telefonico] [telefono] [celular] [cell] *
+- Estamos en santa anita, calle 2033, lote 5001, lima, peru y nuestros telefonos son:  1 (800) 555-1234 - Cell 98993838383
++ * donde estan [telefonico] [telefono] [celular] [cell] *
+- Estamos en santa anita, calle 2033, lote 5001, lima, peru y nuestros telefonos son:  1 (800) 555-1234 - Cell 98993838383
++ donde estan [telefonico] [telefono] [celular] [cell] *
+- Estamos en santa anita, calle 2033, lote 5001, lima, peru y nuestros telefonos son:  1 (800) 555-1234 - Cell 98993838383
+
+// ------ TELEFONO Y DIRECCION (NO FUNCIONA) 
++ * (telefonico|telefono fijo|telefono|celular|cell) [direccion]  [ubicacion]  [ubicado]  [ubicados] *
+- Puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- telefono fijo: 1 (800) 555-1234 - Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Llama al: 1 (800) 555-1234 y Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
++ (telefonico|telefono fijo|telefono|celular|cell) [direccion]  [ubicacion]  [ubicado]  [ubicados] *
+- Puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- telefono fijo: 1 (800) 555-1234 - Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Llama al: 1 (800) 555-1234 y Cell 98993838383 y estamos en santa anita, calle 2033, lote 5001, lima, peru
+
+// HORARIO
++ * (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm
++ * (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) 
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm
++ (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm
++ (horario|horarios) 
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm
+
+// HORARIO Y DIRECCION
++ * (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) [direccion]  [ubicacion]  [ubicado]  [ubicados]  *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm y estamos en santa anita, calle 2033, lote 5001, lima, peru
++ (horario|horarios|abre|abren|cierra|cierran|abierto|abiertos) [direccion]  [ubicacion]  [ubicado]  [ubicados]  *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm y estamos en santa anita, calle 2033, lote 5001, lima, peru
+
+// DIRECCION Y HORARIO
++ * (direccion|ubicacion|ubicado|ubicados|ubicada) [abiertos] [abierto] [cierran] [cierran] [horario] [horarios] [abre] [abren] *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm y estamos en santa anita, calle 2033, lote 5001, lima, peru
++ (direccion|ubicacion|ubicado|ubicados|ubicada) [abiertos] [abierto] [cierran] [cierran] [horario] [horarios] [abre] [abren] *
+- Estamos abiertos desde las 9 am - hasta las 8 pm de lunes a sabado y estamos en santa anita, calle 2033, lote 5001, lima, peru
+- Los dias que estamos abiertos son de lunes a sabado entre las 9 am y las 8 pm y estamos en santa anita, calle 2033, lote 5001, lima, peru
+
+// ------ DELIVERY
+
+// DELIVERY
++ * delivery *
+- Para solicitar nuestro servicio de delivery puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 
+- Solicita los deliverys llamando al 1 (800) 555-1234 - Cell 98993838383
++ * delivery
+- Para solicitar nuestro servicio de delivery puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 
+- Solicita los deliverys llamando al 1 (800) 555-1234 - Cell 98993838383
++ delivery *
+- Para solicitar nuestro servicio de delivery puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 
+- Solicita los deliverys llamando al 1 (800) 555-1234 - Cell 98993838383
++ delivery
+- Para solicitar nuestro servicio de delivery puedes comunicarte al: 1 (800) 555-1234 - Cell 98993838383 
+- Solicita los deliverys llamando al 1 (800) 555-1234 - Cell 98993838383 
+
+// ------ RESERVACIONES
+
+// RESERVACIONES
++ * (reservaciones|reservacion|reservar|hacer una cita|pasear un perro|pasear una perra|apartar una hora) *
+- Para hacer reservaciones comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para reservar llama al: 1 (800) 555-1234 - Cell 98993838383
+- Haz tu reserva al: 1 (800) 555-1234 y Cell 98993838383
+- Si quieres reservar una hora para tu perro marca: 1 (800) 555-1234 y Cell 98993838383 
++ * (reservaciones|reservacion|reservar|hacer una cita|pasear un perro|pasear una perra|apartar una hora) 
+- Para hacer reservaciones comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para reservar llama al: 1 (800) 555-1234 - Cell 98993838383
+- Haz tu reserva al: 1 (800) 555-1234 y Cell 98993838383
+- Si quieres reservar una hora para tu perro marca: 1 (800) 555-1234 y Cell 98993838383
++ (reservaciones|reservacion|reservar|hacer una cita|pasear un perro|pasear una perra|apartar una hora) * 
+- Para hacer reservaciones comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para reservar llama al: 1 (800) 555-1234 - Cell 98993838383
+- Haz tu reserva al: 1 (800) 555-1234 y Cell 98993838383
+- Si quieres reservar una hora para tu perro marca: 1 (800) 555-1234 y Cell 98993838383
++ (reservaciones|reservacion|reservar|hacer una cita|pasear un perro|pasear una perra|apartar una hora)  
+- Para hacer reservaciones comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para reservar llama al: 1 (800) 555-1234 - Cell 98993838383
+- Haz tu reserva al: 1 (800) 555-1234 y Cell 98993838383
+- Si quieres reservar una hora para tu perro marca: 1 (800) 555-1234 y Cell 98993838383
+
+// ------ CONTRATAR UN ENTRENADOR DE PERROS
+
+// ENTRENADOR
++ * (entrenador|contratar un entrenador|hacer una cita con un entrenador|entrenar un perro|entrenar una perra) *
+- Para entrenar un perro comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para solicitar un entrendor llama al: 1 (800) 555-1234 - Cell 98993838383
+- Para contratar un entrendor marca: 1 (800) 555-1234 - Cell 98993838383
+- Si deseas saber mas de nuestro servicio de entrenamiento llama al: 1 (800) 555-1234 - Cell 98993838383
++ * (entrenador|contratar un entrenador|hacer una cita con un entrenador|entrenar un perro|entrenar una perra) 
+- Para entrenar un perro comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para solicitar un entrendor llama al: 1 (800) 555-1234 - Cell 98993838383
+- Para contratar un entrendor marca: 1 (800) 555-1234 - Cell 98993838383
+- Si deseas saber mas de nuestro servicio de entrenamiento llama al: 1 (800) 555-1234 - Cell 98993838383
++ (entrenador|contratar un entrenador|hacer una cita con un entrenador|entrenar un perro|entrenar una perra) *
+- Para entrenar un perro comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para solicitar un entrendor llama al: 1 (800) 555-1234 - Cell 98993838383
+- Para contratar un entrendor marca: 1 (800) 555-1234 - Cell 98993838383
+- Si deseas saber mas de nuestro servicio de entrenamiento llama al: 1 (800) 555-1234 - Cell 98993838383
++ (entrenador|contratar un entrenador|hacer una cita con un entrenador|entrenar un perro|entrenar una perra) 
+- Para entrenar un perro comunicarte al: 1 (800) 555-1234 - Cell 98993838383
+- Para solicitar un entrendor llama al: 1 (800) 555-1234 - Cell 98993838383
+- Para contratar un entrendor marca: 1 (800) 555-1234 - Cell 98993838383
+- Si deseas saber mas de nuestro servicio de entrenamiento llama al: 1 (800) 555-1234 - Cell 98993838383
+
+// ------ SERVICIOS QUE OFRECEN
+
+//--------------------------------------------------------------------------------------------- CON PRECIO
+
++ * (que hacen|que vendes|servicio ofreces|servicios ofreces|servicio tiene|servicios tienen|que servicios hay|servicios ofrecen|servicio ofrecen|servicios ofrece|tipo de servicios|que tienen|que vende|que venden|clase de servicio|variedad de|cuales) [precio] [cuesta] [costo] [pagar] *
+- Ofrecemos el servicio de paseo de perros a 15 soles de lunes a sabado entre 7 am y 7 pm y servicio de entrenamiento cuyo costo debe ser acordado con el entrenador en el mismo horario anterior, GPS para localizar a su mascota ya sea perros o gatos en caso de estravio por 60 soles mensuales, visite nuestra paginas web para ver los precios para clientes en descuentos sobre productos para animales como alimentos, dulces, juguetes, etc. para peces, gatos, perros y aves. ademas de anuncios de nuestros partnes, con clinicas para mascotas las 24 horas del dia, atencion a domicilio para corte de unas, bano, secado y penaido, corte de pelo, hospedaje para cuando tengas que viajar, hospedaje en dias festivos cuando el sonido de los fuegos artificiales lastimen y asusten al engreido de la familia, para mayor informacion llame al: 1 (800) 555 cel 111 o consulte nuestras paginas web, si desea hablar con tu mascota vea lo referente a nuestro servicio de traduccion animal, te sorprendera....  
+
++ (que hacen|que vendes|servicio ofreces|servicios ofreces|servicio tiene|servicios tienen|que servicios hay|servicios ofrecen|servicio ofrecen|servicios ofrece|tipo de servicios|que tienen|que vende|que venden|clase de servicio|variedad de|cuales) [precio] [cuesta] [costo] [pagar] *
+- Ofrecemos el servicio de paseo de perros a 15 soles de lunes a sabado entre 7 am y 7 pm y servicio de entrenamiento cuyo costo debe ser acordado con el entrenador en el mismo horario anterior, GPS para localizar a su mascota ya sea perros o gatos en caso de estravio por 60 soles mensuales, visite nuestra paginas web para ver los precios para clientes en descuentos sobre productos para animales como alimentos, dulces, juguetes, etc. para peces, gatos, perros y aves. ademas de anuncios de nuestros partnes, con clinicas para mascotas las 24 horas del dia, atencion a domicilio para corte de unas, bano, secado y penaido, corte de pelo, hospedaje para cuando tengas que viajar, hospedaje en dias festivos cuando el sonido de los fuegos artificiales lastimen y asusten al engreido de la familia, para mayor informacion llame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestras paginas web, si desea comunicarte con tu mascota vea lo referente a nuestro servicio de traduccion, te sorprendera....
+
++ (que hacen|que vendes|servicio ofreces|servicios ofreces|servicio tiene|servicios tienen|que servicios hay|servicios ofrecen|servicio ofrecen|servicios ofrece|tipo de servicios|que tienen|que vende|que venden|clase de servicio|variedad de|cuales) [precio] [cuesta] [costo] [pagar] *
+- Ofrecemos el servicio de paseo de perros a 15 soles de lunes a sabado entre 7 am y 7 pm y servicio de entrenamiento cuyo costo debe ser acordado con el entrenador en el mismo horario anterior, GPS para localizar a su mascota ya sea perros o gatos en caso de estravio por 60 soles mensuales, visite nuestra paginas web para ver los precios para clientes en descuentos sobre productos para animales como alimentos, dulces, juguetes, etc. para peces, gatos, perros y aves. ademas de anuncios de nuestros partnes, con clinicas para mascotas las 24 horas del dia, atencion a domicilio para corte de unas, bano, secado y penaido, corte de pelo, hospedaje para cuando tengas que viajar, hospedaje en dias festivos cuando el sonido de los fuegos artificiales lastimen y asusten al engreido de la familia, para mayor informacion llame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestras paginas web, si desea comunicarte con tu mascota vea lo referente a nuestro servicio de traduccion, te sorprendera....
+
+//--------------------------------------------------------------------------------------------- SIN PRECIO
+
++ * (que hacen|que vendes|servicio ofreces|servicios ofreces|servicio tiene|servicios tienen|que servicios hay|servicios ofrecen|servicio ofrecen|servicios ofrece|tipo de servicios|que tienen|que vende|que venden|clase de servicio|variedad de|cuales) *
+- Ofrecemos el servicio de paseo de perros a 15 soles de lunes a sabado entre 7 am y 7 pm y servicio de entrenamiento cuyo costo debe ser acordado con el entrenador en el mismo horario anterior, GPS para localizar a su mascota ya sea perros o gatos en caso de estravio por 60 soles mensuales, visite nuestra paginas web para ver los precios para clientes en descuentos sobre productos para animales como alimentos, dulces, juguetes, etc. para peces, gatos, perros y aves. ademas de anuncios de nuestros partnes, con clinicas para mascotas las 24 horas del dia, atencion a domicilio para corte de unas, bano, secado y penaido, corte de pelo, hospedaje para cuando tengas que viajar, hospedaje en dias festivos cuando el sonido de los fuegos artificiales lastimen y asusten al engreido de la familia, para mayor informacion llame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestras paginas web, si desea comunicarte con tu mascota vea lo referente a nuestro servicio de traduccion, te sorprendera....
+
++ * (que hacen|que vendes|servicio ofreces|servicios ofreces|servicio tiene|servicios tienen|que servicios hay|servicios ofrecen|servicio ofrecen|servicios ofrece|tipo de servicios|que tienen|que vende|que venden|clase de servicio|variedad de|cuales) 
+- Ofrecemos el servicio de paseo de perros a 15 soles de lunes a sabado entre 7 am y 7 pm y servicio de entrenamiento cuyo costo debe ser acordado con el entrenador en el mismo horario anterior, GPS para localizar a su mascota ya sea perros o gatos en caso de estravio por 60 soles mensuales, visite nuestra paginas web para ver los precios para clientes en descuentos sobre productos para animales como alimentos, dulces, juguetes, etc. para peces, gatos, perros y aves. ademas de anuncios de nuestros partnes, con clinicas para mascotas las 24 horas del dia, atencion a domicilio para corte de unas, bano, secado y penaido, corte de pelo, hospedaje para cuando tengas que viajar, hospedaje en dias festivos cuando el sonido de los fuegos artificiales lastimen y asusten al engreido de la familia, para mayor informacion llame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestras paginas web, si desea comunicarte con tu mascota vea lo referente a nuestro servicio de traduccion, te sorprendera....
+
++ (que hacen|que vendes|servicio ofreces|servicios ofreces|servicio tiene|servicios tienen|que servicios hay|servicios ofrecen|servicio ofrecen|servicios ofrece|tipo de servicios|que tienen|que vende|que venden|clase de servicio|variedad de|cuales) *
+- Ofrecemos el servicio de paseo de perros a 15 soles de lunes a sabado entre 7 am y 7 pm y servicio de entrenamiento cuyo costo debe ser acordado con el entrenador en el mismo horario anterior, GPS para localizar a su mascota ya sea perros o gatos en caso de estravio por 60 soles mensuales, visite nuestra paginas web para ver los precios para clientes en descuentos sobre productos para animales como alimentos, dulces, juguetes, etc. para peces, gatos, perros y aves. ademas de anuncios de nuestros partnes, con clinicas para mascotas las 24 horas del dia, atencion a domicilio para corte de unas, bano, secado y penaido, corte de pelo, hospedaje para cuando tengas que viajar, hospedaje en dias festivos cuando el sonido de los fuegos artificiales lastimen y asusten al engreido de la familia, para mayor informacion llame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestras paginas web, si desea comunicarte con tu mascota vea lo referente a nuestro servicio de traduccion, te sorprendera....
+
++ (que hacen|que vendes|servicio ofreces|servicios ofreces|servicio tiene|servicios tienen|que servicios hay|servicios ofrecen|servicio ofrecen|servicios ofrece|tipo de servicios|que tienen|que vende|que venden|clase de servicio|variedad de|cuales) 
+- Ofrecemos el servicio de paseo de perros a 15 soles de lunes a sabado entre 7 am y 7 pm y servicio de entrenamiento cuyo costo debe ser acordado con el entrenador en el mismo horario anterior,GPS para localizar a su mascota ya sea perros o gatos en caso de estravio por 60 soles mensuales, visite nuestra paginas web para ver los precios para clientes en descuentos sobre productos para animales como alimentos, dulces, juguetes, etc. para peces, gatos, perros y aves. ademas de anuncios de nuestros partnes, con clinicas para mascotas las 24 horas del dia, atencion a domicilio para corte de unas, bano, secado y penaido, corte de pelo, hospedaje para cuando tengas que viajar, hospedaje en dias festivos cuando el sonido de los fuegos artificiales lastimen y asusten al engreido de la familia, para mayor informacion llame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestras paginas web, si desea comunicarte con tu mascota vea lo referente a nuestro servicio de traduccion, te sorprendera....  
+
+// PRECIOS DEL SERVICIOS / SERVICIOS - OPCION 1
++ * (cuanto vale el servicio|cuanto vale tu servicio|cuanto cuesta el servicio|cuanto cuesta tu servicio|cuesta el servicio|cuestan los servicios|precio tiene el|precio del|precio de|precio tienen los|precio de|costo de|precio que tienen|precio tiene tu|precio tienen tu) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (cuanto vale el servicio|cuanto vale tu servicio|cuanto cuesta el servicio|cuanto cuesta tu servicio|cuesta el servicio|cuestan los servicios|precio tiene el|precio del|precio de|precio tienen los|precio de|costo de|precio que tienen|precio tiene tu|precio tienen tu) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (cuanto vale el servicio|cuanto vale tu servicio|cuanto cuesta el servicio|cuanto cuesta tu servicio|cuesta el servicio|cuestan los servicios|precio tiene el|precio del|precio de|precio tienen los|precio de|costo de|precio que tienen|precio tiene tu|precio tienen tu) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (cuanto vale el servicio|cuanto vale tu servicio|cuanto cuesta el servicio|cuanto cuesta tu servicio|cuesta el servicio|cuestan los servicios|precio tiene el|precio del|precio de|precio tienen los|precio de|costo de|precio que tienen|precio tiene tu|precio tienen tu) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PRECIOS DE SERVICIOS Y/O PRODUCTOS - OPCION 2
++ * (cuesta unas|cuestan unas|precio tiene unas|precio tienen unas|precio de unas|costo de unas|precio que tienen unas) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (cuesta unas|cuestan unas|precio tiene unas|precio tienen unas|precio de unas|costo de unas|precio que tienen unas) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (cuesta unas|cuestan unas|precio tiene unas|precio tienen unas|precio de unas|costo de unas|precio que tienen unas) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PRECIOS DE SERVICIOS Y/O PRODUCTOS - OPCION 3
++ * (quiero|las quiero|las queremos|queremos|deseo|deme|que mas vende|que mas vende) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (quiero|las quiero|las queremos|queremos|deseo|deme|que mas vende|que mas venden) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (quiero|las quiero|las queremos|queremos|deseo|deme|que mas vende|que mas venden) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (que mas venden) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PRECIOS DE SERVICIOS Y/O PRODUCTOS - OPCION 4
++ * (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo dan|dan solo|hace solo|solo hacen|hacen solo|solo hace|hace solo|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo dan|dan solo|hace solo|solo hacen|hacen solo|solo hace|hace solo|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo dan|dan solo|hace solo|solo hacen|hacen solo|solo hace|hace solo|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+
+// --------------------------------------------------------------------------------- PEDIDOS
+
+// PEDIDO OTROS
++ * (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos)  
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PEDIDO VARIOS 
++ * (dame|deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son|un pedido) *   
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (dame|deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son|un pedido) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (dame|deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son|un pedido) *   
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PEDIDO UNO 
++ * (dame|deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) *  
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (dame|deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (dame|deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) *  
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PREGUNTAS SIN RESPUESTAS
++ *
+- Recuerda que soy un bot, y no se todas las respuestas, en este caso comunicate al 1 (800) 55-1234 - Cell 98993838383 
+- Intenta hacer tu pregunta de otra manera a ver si te puedo responder ya que solo soy un bot sino llama al  55-1234 - Cell 98993838383.
+- No le entiendo si desea haga su pregunta de otra forma para que le pueda entender o consulte en internet, tambien puede llamar al  55-1234 - Cell 98993838383. 
