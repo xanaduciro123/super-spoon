@@ -1,0 +1,189 @@
+//  ----------------------------------------------------------------- QUIEN TE CREO
+
+// QUIEN TE CREO
++ * (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) * 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ * (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario) * 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ (quien te creo|quien te programo|cual es tu creador|quien te construyo|quien es tu creador|quien te hizo|quien es tu dueno|quien es tu propietario)
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
+// MARCO TE CREO, ES TU DUEÑO
++ * (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) * 
+- Soy propiedad de Marco quien me creo
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ * (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) * 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+- Mi dueno es Marco
+- Mi creador es Marco
+- El programador que me codifico es Marco
++ (marco es tu dueno|marco te hizo|marco es tu creador|marco te creo) 
+- Soy propiedad de Marco quien me creo 
+- Marco es mi creador
+- Marco me programo
+- Marco me construyo
+- Me hizo Marco
+
+// PRECIOS DE SERVICIOS Y/O PRODUCTOS - OPCION 2
++ * (cuesta unas|cuestan unas|precio tiene unas|precio tienen unas|precio de unas|costo de unas|precio que tienen unas) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (cuesta unas|cuestan unas|precio tiene unas|precio tienen unas|precio de unas|costo de unas|precio que tienen unas) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (cuesta unas|cuestan unas|precio tiene unas|precio tienen unas|precio de unas|costo de unas|precio que tienen unas) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PRECIOS DE SERVICIOS Y/O PRODUCTOS - OPCION 3
++ * (quiero|las quiero|las queremos|queremos|deseo|deme|que mas vende|que mas vende) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (quiero|las quiero|las queremos|queremos|deseo|deme|que mas vende|que mas venden) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (quiero|las quiero|las queremos|queremos|deseo|deme|que mas vende|que mas venden) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (que mas venden) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PRECIOS DE SERVICIOS Y/O PRODUCTOS - OPCION 4
++ * (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo dan|dan solo|hace solo|solo hacen|hacen solo|solo hace|hace solo|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo dan|dan solo|hace solo|solo hacen|hacen solo|solo hace|hace solo|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) *
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (todo lo que venden es eso|todo lo que vende es eso|eso es todo lo que venden|eso es todo lo que vende|es todo lo que venden|es todo lo que vende|solo dan|dan solo|hace solo|solo hacen|hacen solo|solo hace|hace solo|eso es todo lo que hacen|eso es todo lo que hace|todo lo que hacen es eso|todo lo que hace es eso) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+
+// --------------------------------------------------------------------------------- PEDIDOS
+
+// PEDIDO OTROS
++ * (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos)  
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (hagame|haga|prepareme|deme|dame|prepare|preparenos|preparenle|vendame|vendanos|vendanle|envieme|envienle|envienos) * 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PEDIDO VARIOS 
++ * (dame|deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son|un pedido) *   
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (dame|deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son|un pedido) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (dame|deme|vendame|vendanos|vendanle|envieme|envienle|envienos|quiero|queremos|mi pedido es|mi pedido son|el pedido es|el pedido son|nuestro pedido es|nuestro pedido son|pedimos|pido|pide|mi pedido son|el pedido son|un pedido) *   
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PEDIDO UNO 
++ * (dame|deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) *  
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ * (dame|deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) 
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
++ (dame|deme una|vendame una|vendanos una|vendanle una|envieme una|envienle una|envienos una|quiero una|queremos una|mi pedido es|el pedido es una|nuestro pedido es una|pedimos una|pido una|pide una) *  
+- Para adquirir o solicitar informacion sobre un producto y/o servicio haga su pedido a traves de nuestra pagina web https://www.zendesk.com o llame al: 1 (800) 555-1234 - Cell 98993838383
+- Para mas informacion sobre precios de productos o servicios, lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Si desea comprar un producto o solicitar un servicio lame al: 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+- Comuniquese con uno de nuestros operadores que gustosamente le atenderan y le daran informacion sobre precios, productos y servicios 1 (800) 555-1234 - Cell 98993838383 o consulte nuestra pagina web https://www.zendesk.com
+
+// PREGUNTAS SIN RESPUESTAS
++ *
+- Recuerda que soy un bot, y no se todas las respuestas, en este caso comunicate al 1 (800) 55-1234 - Cell 98993838383 
+- Intenta hacer tu pregunta de otra manera a ver si te puedo responder ya que solo soy un bot sino llama al  55-1234 - Cell 98993838383.
+- No le entiendo si desea haga su pregunta de otra forma para que le pueda entender o consulte en internet, tambien puede llamar al  55-1234 - Cell 98993838383. 
